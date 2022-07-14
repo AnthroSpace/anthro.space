@@ -7,4 +7,8 @@
 	import "./_styles/index.scss";
 </script>
 
+<svelte:head>
+	<title>AnthroSpace | Live</title>
+</svelte:head>
+
 <Live />

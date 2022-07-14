@@ -13,6 +13,6 @@
 <div id="scrollbar">
 	<div id="container">
 		<span id="track" />
-		<span id="thumb" style="left: {scrollPercent * 100}%" />
+		<span id="thumb" style="height: {scrollPercent * 250}px" />
 	</div>
 </div>

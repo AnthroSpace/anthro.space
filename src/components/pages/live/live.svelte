@@ -2,13 +2,14 @@
 	import "./style.scss";
 </script>
 
-<section>
+<section id="live">
 	<div id="container">
 		<iframe
 			title="stream"
 			id="stream"
-			src="https://player.twitch.tv/?AnthroSpace&parent=anthro.space"
+			src="https://player.twitch.tv/?channel=AnthroSpace&parent=anthro.space"
 			allowfullscreen
+			frameborder="0"
 		/>
 		<iframe
 			title="twitch chat"

@@ -1,4 +1,4 @@
-$scrollbar-offset-x: 12px;
+$scrollbar-offset-x: 15px;
 $thumb-size: 5px;
 $scrollbar-height: 250px;
 
@@ -6,28 +6,22 @@ $scrollbar-height: 250px;
 	position: fixed;
     top: 50%;
     right: $scrollbar-offset-x;
-    transform: rotate(90deg);
     
     & > #container {
-        position: relative;
-        right: $scrollbar-offset-x;
-        transform: translate(-50%, -50%);
-
         & > #track {
             position: absolute;
-            width: $scrollbar-height;
-            height: 1px;
+            height: $scrollbar-height;
+            width: 1px;
             background: $foreground-primary;
-            transform: translateY(-50%);
+            transform: translate(-50%, -50%);
         }
         
         & > #thumb {
-            right: 10px;
             position: absolute;
             width: $thumb-size;
-            height: $thumb-size;
+            height: 100px;
             background: $foreground-primary;
-            transform: translateY(-50%);
+            transform: translate(-50%, -50%);
         }
     }
 	

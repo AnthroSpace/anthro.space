@@ -2,7 +2,7 @@
 	import Header from "$includes/header/header.svelte";
 	import Footer from "$includes/footer/footer.svelte";
 	import "../app.scss";
-	// import Scrollbar from "$lib/scrollbar/Scrollbar.svelte";
+	import Scrollbar from "$includes/scrollbar/scrollbar.svelte";
 </script>
 
 <!-- <Scrollbar /> -->
@@ -11,6 +11,7 @@
 
 <main>
 	<slot />
+	<Scrollbar />
 </main>
 
 <Footer />
