@@ -1,0 +1,18 @@
+<script lang="ts">
+	import "./style.scss";
+
+	let scrollPercent = 0;
+
+	function handleScroll() {
+		scrollPercent = window.scrollY / (document.body.offsetHeight - window.innerHeight);
+	}
+</script>
+
+<svelte:window on:scroll={handleScroll} />
+
+<div id="scrollbar">
+	<div id="container">
+		<span id="track" />
+		<span id="thumb" style="left: {scrollPercent * 100}%" />
+	</div>
+</div>

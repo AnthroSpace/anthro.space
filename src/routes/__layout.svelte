@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Header from "$lib/header/header.svelte";
-	import Footer from "$lib/footer/footer.svelte";
+	import Header from "$includes/header/header.svelte";
+	import Footer from "$includes/footer/footer.svelte";
 	import "../app.scss";
 	// import Scrollbar from "$lib/scrollbar/Scrollbar.svelte";
 </script>
@@ -21,5 +21,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		min-height: 100vh;
 	}
 </style>

@@ -1,5 +1,6 @@
 import adapter from "@sveltejs/adapter-auto";
 import preprocess from "svelte-preprocess";
+import path from "path";
 // import autoprefixer from "autoprefixer";
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -10,15 +11,20 @@ const config = {
 		preprocess({
 			scss: {
 				prependData: '@use "src/variables.scss" as *;'
-			},
+			}
 			// postcss: {
-            //     plugins: [autoprefixer()]
-            // }
+			//     plugins: [autoprefixer()]
+			// }
 		})
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			$static: "static",
+			$pages: "src/components/pages",
+			$includes: "src/components/includes"
+		}
 	}
 };
 
