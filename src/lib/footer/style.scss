@@ -1,0 +1,15 @@
+footer {
+    display: flex; 
+    justify-content: space-evenly;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background-color: $background-secondary;
+    & > span {
+        color: #fff;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-left: 0.5em;
+    }
+}

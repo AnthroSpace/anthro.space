@@ -1,0 +1,60 @@
+@import "@fontsource/varela";
+
+body {
+	font-family: "Varela", sans-serif;
+	margin: 0;
+	background-color: $background-primary;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+p,
+span {
+	color: $foreground-primary;
+}
+
+p,
+span {
+	font-size: 1em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+	transition: $default-transition;
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+		width: 0;
+		height: 0.08em;
+		background-color: $foreground-primary;
+		transition: $default-transition;
+	}
+
+	&:hover,
+	&:focus {
+		&::after {
+			width: 100%;
+		}
+	}
+
+	&:active {
+		color: $foreground-secondary;
+		&::after {
+			background-color: $foreground-secondary;
+		}
+	}
+}
