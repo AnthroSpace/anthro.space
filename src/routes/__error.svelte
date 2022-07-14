@@ -24,3 +24,9 @@
 </section>
 
 <VideoBg src="/video/noise.webm" />
+
+<style lang="scss">
+	section {
+		text-align: center;
+	}
+</style>

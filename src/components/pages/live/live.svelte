@@ -4,11 +4,16 @@
 
 <section>
 	<div id="container">
-		<div id="stream" />
+		<iframe
+			title="stream"
+			id="stream"
+			src="https://player.twitch.tv/?AnthroSpace&parent=anthro.space"
+			allowfullscreen
+		/>
 		<iframe
 			title="twitch chat"
 			id="chat"
-			src="https://www.twitch.tv/embed/anthrospace/chat?parent=anthro.space,anthro-space.pages.dev"
+			src="https://www.twitch.tv/embed/AnthroSpace/chat?parent=anthro.space"
 			frameborder="0"
 		/>
 		<div id="live-footer">
