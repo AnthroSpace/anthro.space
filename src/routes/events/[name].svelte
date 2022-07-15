@@ -19,6 +19,10 @@
 	const event = JSON.parse(body);
 </script>
 
+<svelte:head>
+    <title>AnthroSpace | {event.name}</title>
+</svelte:head>
+
 <h1>{event.name}</h1>
 <p>{event.date}</p>
 
