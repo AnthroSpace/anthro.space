@@ -18,9 +18,7 @@
 <section>
 	<h1>Error {status}</h1>
 	<h2>{message}</h2>
-	{#if status === 404}
-		<a href="/" class="btn">🡐 back to home</a>
-	{/if}
+	<a href="/" class="btn">🡐 back to home</a>
 </section>
 
 <VideoBg src="/video/noise.webm" />
