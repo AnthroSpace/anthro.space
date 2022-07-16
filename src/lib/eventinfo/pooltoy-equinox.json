@@ -1,0 +1,21 @@
+{
+	"name": "POOLTOY EQUINOX",
+	"date": "06-25-2021",
+	"images": {
+		"hero": "/hero.jpg",
+		"posters": ["/poster.png", "/set_times.png"],
+		"screenshots": []
+	},
+	"lineup": [
+		{
+			"name": "Twink-182",
+			"links": [
+				{
+					"name": "Twitter",
+					"url": "https://twitter.com/"
+				}
+			],
+			"set_urls": []
+		}
+	]
+}

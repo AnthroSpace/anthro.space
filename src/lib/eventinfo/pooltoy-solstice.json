@@ -2,7 +2,8 @@
 	"name": "POOLTOY SOLSTICE",
 	"date": "07-09-2022",
 	"images": {
-		"posters": [],
+		"hero": "",
+		"posters": ["/poster.jpg", "/set_times.jpg"],
 		"screenshots": []
 	},
 	"lineup": [

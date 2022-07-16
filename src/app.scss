@@ -70,3 +70,20 @@ a {
 		}
 	}
 }
+
+
+.row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+#landing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	max-height: 100vh;
+	min-height: 100vh;
+}

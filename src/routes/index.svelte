@@ -4,7 +4,7 @@
 
 <script lang="ts">
 	import { team } from "$lib/stores";
-	import VideoBg from "$includes/video-bg/video-bg.svelte";
+	import HeroBg from "$includes/hero-bg/hero-bg.svelte";
 	import MemberList from "$includes/memberlist/memberlist.svelte";
 	import "./_styles/index.scss";
 	const live = true;
@@ -28,7 +28,7 @@
 		<p>we are LIVE: <a href="/live">WATCH</a></p>
 	{/if}
 	<span id="scrollarrow">↓</span>
-	<VideoBg src="/video/hero.mp4" dim />
+	<HeroBg src="/video/hero.mp4" dim isVideo />
 </section>
 
 <section id="content">

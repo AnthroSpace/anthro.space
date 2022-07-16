@@ -10,7 +10,7 @@
 </script>
 
 <script lang="ts">
-    import VideoBg from "$includes/video-bg/video-bg.svelte";
+    import HeroBg from "$includes/hero-bg/hero-bg.svelte";
 	export let status: number;
     export let message: string;
 </script>
@@ -21,7 +21,7 @@
 	<a href="/" class="btn">🡐 back to home</a>
 </section>
 
-<VideoBg src="/video/noise.webm" />
+<HeroBg src="/video/noise.webm" isVideo />
 
 <style lang="scss">
 	section {

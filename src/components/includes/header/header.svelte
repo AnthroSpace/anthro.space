@@ -16,9 +16,10 @@
 	</div>
 
 	<div class="row links">
-		<a href="https://twitch.tv/AnthroSpace">TWITCH</a>
+		<a href="/events">PAST EVENTS</a>
+		<a href="/twitch">TWITCH</a>
 		<!-- <a href="">MIXCLOUD</a>  -->
-		<a href="https://twitter.com/AnthroSpace">TWITTER</a>
-		<a href="https://discord.gg/ccHcskc8GG">DISCORD</a>
+		<a href="/twitter">TWITTER</a>
+		<a href="/discord">DISCORD</a>
 	</div>
 </header>

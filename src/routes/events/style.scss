@@ -1,0 +1,16 @@
+#event-lineup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#posters {
+    max-width: 100%;
+}
+
+.dj {
+    border: 1px solid white;
+    & > .name {
+        font-size: 1.5rem;
+    }
+}
