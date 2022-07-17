@@ -10,23 +10,5 @@ declare global {
 			title: string;
 			twitter: string | null;
 		}
-
-		interface Event {
-			name: string;
-			date: string;
-			images: { posters: EventLink[]; screenshots: EventLink[] };
-			lineup: DJ[];
-		}
-
-		interface DJ {
-			name: string;
-			links: EventLink[];
-			set_urls: EventLink[];
-		}
-
-		interface EventLink {
-			name: string;
-			url: string;
-		}
 	}
 }
