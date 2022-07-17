@@ -52,15 +52,9 @@ export const listEvents = (): EventMetadata[] => {
 };
 
 export const getEvent = (name: string): Event | null => {
-	try {
-		const foundEvent = getEventFiles().find((event: Event) => {
+	return (
+		getEventFiles().find((event: Event) => {
 			return event.slug === name;
-		});
-
-		if (!foundEvent) return null;
-
-		return foundEvent;
-	} catch (e) {
-		return null;
-	}
+		}) || null
+	);
 };
