@@ -12,9 +12,9 @@
 			screenshots: []
 		};
 
-		props.event.images.posters.forEach((poster) => {
-			const path = `../../../../static/${poster}`;
-		});
+		// props.event.images.posters.forEach((poster) => {
+		// 	const path = `../../../../static/${poster}`;
+		// });
 
 		// Object.entries(props.event.images).forEach(([key, value]) => {
 		// 	if (Array.isArray(value)) {
