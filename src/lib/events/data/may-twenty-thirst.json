@@ -1,8 +1,9 @@
 {
-	"name": "POOLTOY EQUINOX",
-	"date": "06-25-2021",
+	"slug": "may-twenty-thirst",
+	"name": "MAY TWENTY THIRST",
+	"date": "05-21-2021",
 	"images": {
-		"hero": "/hero.jpg",
+		"hero": "",
 		"posters": ["/poster.png", "/set_times.png"],
 		"screenshots": []
 	},

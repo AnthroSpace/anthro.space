@@ -15,8 +15,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$pages: "src/components/pages",
-			$includes: "src/components/includes"
+			$components: "src/components"
 		}
 	}
 };

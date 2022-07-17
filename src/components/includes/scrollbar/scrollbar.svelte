@@ -3,9 +3,8 @@
 
 	let scrollPercent = 0;
 
-	function handleScroll() {
-		scrollPercent = window.scrollY / (document.body.offsetHeight - window.innerHeight);
-	}
+	const handleScroll = () =>
+		(scrollPercent = window.scrollY / (document.body.offsetHeight - window.innerHeight));
 </script>
 
 <svelte:window on:scroll={handleScroll} />

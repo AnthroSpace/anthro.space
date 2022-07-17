@@ -1,6 +1,12 @@
 import { readable } from "svelte/store";
 
-const members = [
+export type Member = {
+	name: string;
+	title: string;
+	twitter: string;
+}
+
+const members: Member[] = [
 	{
 		name: "Szop",
 		title: "Event Director, Communications, Graphic Design",
@@ -16,7 +22,7 @@ const members = [
 		title: "Infrastructure, Systems Engineer",
 		twitter: "//twitter.com/HelixVexium"
 	},
-	{ name: "Facade", title: "Techno Producer, Fortnite Player, a suport", twitter: "" }
+	{ name: "Facade", title: "Techno Producer, Fortnite Player", twitter: "" }
 ];
 
 export const team = readable(members);

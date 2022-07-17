@@ -1,6 +1,10 @@
 <script lang="ts">
-    import "./style.scss";
-    export let header: string;
+	import type { Readable } from "svelte/store";
+	import type { Member } from "$lib/stores";
+
+	import "./style.scss";
+
+	export let header: string;
 	export let members: Readable<Member[]>;
 </script>
 

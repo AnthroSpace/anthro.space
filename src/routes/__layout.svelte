@@ -1,9 +1,8 @@
 <script lang="ts">
-	import "../app.css";
-	import Header from "$includes/header/header.svelte";
-	import Footer from "$includes/footer/footer.svelte";
+	import Header from "$components/includes/header/header.svelte";
+	import Footer from "$components/includes/footer/footer.svelte";
 	import "../app.scss";
-	import Scrollbar from "$includes/scrollbar/scrollbar.svelte";
+	import Scrollbar from "$components/includes/scrollbar/scrollbar.svelte";
 </script>
 
 <Header />

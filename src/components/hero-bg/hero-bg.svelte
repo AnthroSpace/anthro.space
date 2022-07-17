@@ -6,7 +6,6 @@
 	export let isVideo = false;
 	
 	const dimStyle = "filter: brightness(0.5) blur(10px) contrast(1.2);";
-
 </script>
 
 <div id="background">

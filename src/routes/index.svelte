@@ -4,8 +4,8 @@
 
 <script lang="ts">
 	import { team } from "$lib/stores";
-	import HeroBg from "$includes/hero-bg/hero-bg.svelte";
-	import MemberList from "$includes/memberlist/memberlist.svelte";
+	import HeroBg from "$components/hero-bg/hero-bg.svelte";
+	import MemberList from "$components/memberlist/memberlist.svelte";
 	import "./_styles/index.scss";
 	const live = true;
 </script>

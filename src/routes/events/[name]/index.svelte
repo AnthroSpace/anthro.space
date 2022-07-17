@@ -37,8 +37,8 @@
 </script>
 
 <script lang="ts">
-	import type { Event } from "$lib/events-db";
-	import HeroBg from "$includes/hero-bg/hero-bg.svelte";
+	import type { Event } from "$lib/events/db";
+	import HeroBg from "$components/hero-bg/hero-bg.svelte";
 	import "./style.scss";
 
 	export let event: Event;

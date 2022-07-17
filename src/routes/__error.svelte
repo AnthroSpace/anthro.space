@@ -1,5 +1,7 @@
-<script context="module">
-	export function load({ error, status }) {
+<script context="module" lang="ts">
+	import type { Load } from "./__types/__error";
+
+	export const load: Load = ({ error, status }) => {
 		return {
 			props: {
 				status,
@@ -10,7 +12,7 @@
 </script>
 
 <script lang="ts">
-    import HeroBg from "$includes/hero-bg/hero-bg.svelte";
+    import HeroBg from "$components/hero-bg/hero-bg.svelte";
 	export let status: number;
     export let message: string;
 </script>

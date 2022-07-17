@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { EventMetadata } from "$lib/events-db";
+	import type { EventMetadata } from "$lib/events/db";
 	export let events: EventMetadata[];
 </script>
 
