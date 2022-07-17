@@ -1,8 +1,46 @@
+<script context="module" lang="ts">
+	import type { Load } from "./__types/index";
+	import type { get } from "./index";
+
+	type InputProps = NonNullable<Awaited<ReturnType<typeof get>>["body"]>; // infer type
+	type OutputProps = InputProps;
+
+	export const load: Load<InputProps, OutputProps> = async ({ props }) => {
+		const optimizedImages: Event["images"] = {
+			hero: "",
+			posters: [],
+			screenshots: []
+		};
+
+		props.event.images.posters.forEach((poster) => {
+			const path = `../../../../static/${poster}`;
+		});
+
+		// Object.entries(props.event.images).forEach(([key, value]) => {
+		// 	if (Array.isArray(value)) {
+		// 		optimizedImages[key] = value.map((image) => {
+		// 			return (new URL(`../../../../static${image}`, import.meta.url).href)
+		// 		});
+		// 	}
+		// });
+
+		console.log(optimizedImages);
+
+		props.event.images = optimizedImages;
+
+		return {
+			props: {
+				event: props.event
+			}
+		};
+	};
+</script>
+
 <script lang="ts">
 	import type { Event } from "$lib/events-db";
 	import HeroBg from "$includes/hero-bg/hero-bg.svelte";
 	import "./style.scss";
-	
+
 	export let event: Event;
 </script>
 
@@ -18,7 +56,7 @@
 			<div class="poster" style="background-image: url({poster});" />
 		{/each}
 	</div>
-	<HeroBg src={event.images.hero || event.images.posters[0]} dim />
+	<HeroBg src="{event.images.hero || event.images.posters[0]}?webp" dim />
 </section>
 
 <section id="event-lineup" class="content">

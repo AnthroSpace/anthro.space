@@ -11,6 +11,6 @@
 	<h1>Past Events</h1>
 
 	{#each events as event}
-		<a href={event.path}>{event.name}</a><span class="event">({event.date})</span>
+		<a sveltekit:prefetch href={event.path}>{event.name}</a><span class="event">({event.date})</span>
 	{/each}
 </section>

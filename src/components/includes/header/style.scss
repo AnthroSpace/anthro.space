@@ -20,9 +20,9 @@ header {
 			height: 25px;
 			background-color: $foreground-primary;
 			mask-size: contain;
-			-webkit-mask-size: contain;
+			// -webkit-mask-size: contain;
 			mask-image: url("/img/logo.svg");
-			-webkit-mask-image: url("/img/logo.svg");
+			// -webkit-mask-image: url("/img/logo.svg");
 			transition: $default-transition;
 		}
 	}

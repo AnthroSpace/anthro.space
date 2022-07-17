@@ -1,4 +1,5 @@
 import type { RequestHandler } from "./__types/index";
+import type { Event } from "$lib/events-db";
 import { getEvent } from "$lib/events-db";
 
 type OutputType = { event: Event };
