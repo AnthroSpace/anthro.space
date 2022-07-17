@@ -1,6 +1,5 @@
 import { sveltekit } from "@sveltejs/kit/vite";
 import { UserConfig } from "vite";
-import autoprefixer from "autoprefixer";
 import { imagetools } from "vite-imagetools";
 
 const config: UserConfig = {
@@ -10,10 +9,6 @@ const config: UserConfig = {
 		preprocessorOptions: {
 			scss: {
 				additionalData: '@use "src/variables.scss" as *;'
-			},
-			postcss: {
-				plugins: [
-					autoprefixer()]
 			}
 		}
 	}
