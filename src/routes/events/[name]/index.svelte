@@ -1,7 +1,9 @@
 <script lang="ts">
-	export let event;
+	import type { Event } from "$lib/events-db";
 	import HeroBg from "$includes/hero-bg/hero-bg.svelte";
 	import "./style.scss";
+	
+	export let event: Event;
 </script>
 
 <svelte:head>
@@ -13,13 +15,13 @@
 	<p>{event.date}</p>
 	<div id="posters" class="row">
 		{#each event.images.posters as poster}
-			<img src={poster} alt="" />
+			<div class="poster" style="background-image: url({poster});" />
 		{/each}
 	</div>
 	<HeroBg src={event.images.hero || event.images.posters[0]} dim />
 </section>
 
-<section id="event-lineup">
+<section id="event-lineup" class="content">
 	<h1>Lineup</h1>
 	{#each event.lineup as dj}
 		<div class="dj">

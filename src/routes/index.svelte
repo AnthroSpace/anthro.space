@@ -31,6 +31,6 @@
 	<HeroBg src="/video/hero.mp4" dim isVideo />
 </section>
 
-<section id="content">
+<section class="content">
 	<MemberList header="CREW" members={team} />
 </section>

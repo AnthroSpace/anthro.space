@@ -1,6 +1,25 @@
 
-#posters>img {
-	width: 50%;
-	max-height: 32vw;
-	object-fit: cover;
+#posters>.poster {
+	width: 600px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#event-lineup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#posters {
+    max-width: 100%;
+}
+
+.dj {
+    border: 1px solid white;
+    & > .name {
+        font-size: 1.5rem;
+    }
 }
