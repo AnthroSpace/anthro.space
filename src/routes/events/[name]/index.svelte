@@ -1,8 +1,8 @@
 <script context="module" lang="ts">
 	import type { Load } from "./__types/index";
-	import type { get } from "./index";
+	import type { GET } from "./index";
 
-	type InputProps = NonNullable<Awaited<ReturnType<typeof get>>["body"]>; // infer type
+	type InputProps = NonNullable<Awaited<ReturnType<typeof GET>>["body"]>; // infer type
 	type OutputProps = InputProps;
 
 	export const load: Load<InputProps, OutputProps> = async ({ props }) => {
