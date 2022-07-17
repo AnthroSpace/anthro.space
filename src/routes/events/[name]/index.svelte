@@ -12,9 +12,11 @@
 			screenshots: []
 		};
 
-		// props.event.images.posters.forEach((poster) => {
-		// 	const path = `../../../../static/${poster}`;
-		// });
+		props.event.images.posters.forEach((poster) => {
+			const path = `../../../../static/${poster}`;
+			let image = Object.entries(import(`../../../../static/${poster}?webp`)).map(([, event]) => event);
+			console.log(image);
+		});
 
 		// Object.entries(props.event.images).forEach(([key, value]) => {
 		// 	if (Array.isArray(value)) {
@@ -24,9 +26,6 @@
 		// 	}
 		// });
 
-		console.log(optimizedImages);
-
-		props.event.images = optimizedImages;
 
 		return {
 			props: {

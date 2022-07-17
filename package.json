@@ -39,6 +39,7 @@
 		"vite-imagetools": "^4.0.4"
 	},
 	"dependencies": {
+		"@fontsource/material-icons": "^4.5.4",
 		"@fontsource/varela": "^4.5.8"
 	}
 }

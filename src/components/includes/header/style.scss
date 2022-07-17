@@ -1,3 +1,5 @@
+@import "@fontsource/material-icons";
+
 header {
 	z-index: 1000;
 	position: fixed;
@@ -10,27 +12,39 @@ header {
 	justify-content: space-between;
 
 	transition: $default-transition;
-	& > .row > #homelink {
-		& > #hometext {
+	& > .row {
+		& .material-icons {
+			font-size: 24px;
+			user-select: none;
+			line-height: 2em;
 			transition: $default-transition;
 		}
-
-		& > #logo {
-			width: 25px;
-			height: 25px;
-			background-color: $foreground-primary;
-			mask-size: contain;
-			// -webkit-mask-size: contain;
-			mask-image: url("/img/logo.svg");
-			// -webkit-mask-image: url("/img/logo.svg");
-			transition: $default-transition;
+		& > #homelink {
+			& > #hometext {
+				transition: $default-transition;
+			}
+	
+			& > #logo {
+				width: 25px;
+				height: 25px;
+				background-color: $foreground-primary;
+				mask-size: contain;
+				// -webkit-mask-size: contain;
+				mask-image: url("/img/logo.svg");
+				// -webkit-mask-image: url("/img/logo.svg");
+				transition: $default-transition;
+			}
 		}
 	}
+
 
 	&.scrolled {
 		background-color: $foreground-primary;
 		padding: 20px;
 		& > .row {
+			& .material-icons {
+				color: $background-primary;
+			}
 			& > #homelink {
 				& > #logo {
 					background-color: $background-primary;
