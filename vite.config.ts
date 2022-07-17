@@ -8,7 +8,7 @@ const config: UserConfig = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				additionalData: '@use "src/variables.scss" as *;'
+				additionalData: `@use "src/variables.scss" as *;`
 			}
 		}
 	}
