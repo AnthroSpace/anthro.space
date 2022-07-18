@@ -30,7 +30,7 @@
 <section id="landing">
 	<h1>{event.name}</h1>
 	<p>{event.date}</p>
-	<div id="posters" class="row">
+	<div id="posters">
 		{#each event.images.posters as poster}
 			<div class="poster" style="background-image: url({poster});" />
 		{/each}

@@ -1,9 +1,22 @@
-#posters > .poster {
-	width: 600px;
-	height: 600px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
+#posters {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	min-height: 60vh;
+	min-width: 60vw;
+	gap: 10px;
+
+	& > .poster {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#posters {
+		grid-template-columns: 1fr;
+	}
 }
 
 #event-lineup {
@@ -52,17 +65,3 @@
 		}
 	}
 }
-
-#posters {
-	max-width: 100%;
-}
-
-// @media only screen and (max-width: 1000px) {
-// 	#event-lineup {
-// 		grid-template-columns: 1fr;
-// 	}
-// 	#posters > .poster {
-// 		width: 300px;
-// 		height: 300px;
-// 	}
-// }
