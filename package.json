@@ -4,7 +4,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --host",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
@@ -32,13 +32,16 @@
 		"svelte": "^3.46.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
+		"svelte-preprocess-import-assets": "^0.1.6",
 		"svelte2tsx": "^0.5.11",
 		"tslib": "^2.3.1",
 		"typescript": "^4.7.4",
 		"vite": "^3.0.0",
-		"vite-imagetools": "^4.0.4"
+		"vite-imagetools": "^4.0.4",
+		"vite-plugin-dynamic-import": "^1.0.0"
 	},
 	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.8",
 		"@fontsource/material-icons": "^4.5.4",
 		"@fontsource/varela": "^4.5.8"
 	}

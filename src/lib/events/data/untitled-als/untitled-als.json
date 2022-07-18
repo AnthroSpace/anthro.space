@@ -1,0 +1,68 @@
+{
+	"slug": "untitled-als",
+	"name": "UNTITLED.ALS*",
+	"date": "04-02-2021",
+	"images": {
+		"hero": "",
+		"posters": ["poster.png", "set_times.png"],
+		"screenshots": []
+	},
+	"lineup": [
+		{
+			"name": "Icedog",
+			"set_urls": []
+		},
+		{
+			"name": "Whitty",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/user-96557785/whos-ready-for-some-mashcore-memes/s-XFVn1PcHgVR"
+				}
+			]
+		},
+		{
+			"name": "Kairoo",
+			"set_urls": []
+		},
+		{
+			"name": "Aurora",
+			"set_urls": []
+		},
+		{
+			"name": "mawrshie",
+			"set_urls": []
+		},
+		{
+			"name": "Gaba Neon",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/gabaneon/gaba-neon-untitledals-apr-2nd"
+				},
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/gabaneon/gaba-neon-untitledals-apr-2nd/"
+				}
+			]
+		},
+		{
+			"name": "LITTLE NICE EGGS",
+			"set_urls": [
+				{ "name": "SoundCloud", "url": "https://soundcloud.com/tetraplus/littleniceeggs" },
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/tetrafox/little-nice-eggs-untitledals-tetra-b2b-facade/"
+				}
+			]
+		},
+		{
+			"name": "Szop",
+			"set_urls": []
+		},
+		{
+			"name": "SanFear",
+			"set_urls": []
+		}
+	]
+}

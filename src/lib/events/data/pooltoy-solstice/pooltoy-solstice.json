@@ -4,38 +4,20 @@
 	"date": "07-09-2022",
 	"images": {
 		"hero": "",
-		"posters": ["/poster.jpg", "/set_times.jpg"],
+		"posters": ["poster.jpg", "set_times.jpg"],
 		"screenshots": []
 	},
 	"lineup": [
 		{
 			"name": "Twink-182",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/"
-				}
-			],
 			"set_urls": []
 		},
 		{
 			"name": "Aurora",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/HelixVexium"
-				}
-			],
 			"set_urls": []
 		},
 		{
 			"name": "Gaba Neon",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/GabaNeon"
-				}
-			],
 			"set_urls": [
 				{
 					"name": "Mixcloud",
@@ -45,7 +27,6 @@
 		},
 		{
 			"name": "Facade",
-			"links": [],
 			"set_urls": [
 				{
 					"name": "Mixcloud",
@@ -55,22 +36,10 @@
 		},
 		{
 			"name": "Kairoo",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/KairooSays"
-				}
-			],
 			"set_urls": []
 		},
 		{
 			"name": "Magus",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/GalaxyMagus"
-				}
-			],
 			"set_urls": [
 				{
 					"name": "Mixcloud",
@@ -80,12 +49,6 @@
 		},
 		{
 			"name": "Keva",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/kevybevy"
-				}
-			],
 			"set_urls": [
 				{
 					"name": "SoundCloud",
@@ -95,12 +58,6 @@
 		},
 		{
 			"name": "Whitty",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/Whitty_Cat"
-				}
-			],
 			"set_urls": [
 				{
 					"name": "Mixcloud",
@@ -110,22 +67,15 @@
 		},
 		{
 			"name": "adjacent silhouette",
-			"links": [
+			"set_urls": [
 				{
-					"name": "Twitter",
-					"url": "https://twitter.com/adjacentsilhou1"
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/adjacent_silhouette_/live-at-pooltoy-solstice-07092022/"
 				}
-			],
-			"set_urls": []
+			]
 		},
 		{
 			"name": "mawrshie",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/mawrshie"
-				}
-			],
 			"set_urls": [
 				{
 					"name": "YouTube",
@@ -135,22 +85,10 @@
 		},
 		{
 			"name": "wolfmagic",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/iamwolfmagic"
-				}
-			],
 			"set_urls": []
 		},
 		{
 			"name": "tetra",
-			"links": [
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/etra_t"
-				}
-			],
 			"set_urls": [
 				{ "name": "YouTube", "url": "https://www.youtube.com/watch?v=e5P3d6X3TL0" },
 				{

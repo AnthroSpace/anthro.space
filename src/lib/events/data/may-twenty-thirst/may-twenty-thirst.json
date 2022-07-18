@@ -1,0 +1,68 @@
+{
+	"slug": "may-twenty-thirst",
+	"name": "MAY TWENTY THIRST",
+	"date": "05-21-2021",
+	"images": {
+		"hero": "",
+		"posters": ["poster.png", "set_times.png"],
+		"screenshots": []
+	},
+	"lineup": [
+		{ "name": "Debisco", "set_urls": [] },
+		{ "name": "Icedog", "set_urls": [] },
+		{
+			"name": "Aurora",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/HelixVexium/helix-may-twenty-thirst-pooltoysummer/"
+				}
+			]
+		},
+		{
+			"name": "Gaba Neon",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/gabaneon/gabgab-may-twenty-thirst-pooltoysummer/"
+				}
+			]
+		},
+		{
+			"name": "Magus",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/GalaxyMagus/magus-may-twenty-thirst/"
+				}
+			]
+		},
+		{ "name": "Whitty", "set_urls": [] },
+		{ "name": "Kairoo", "set_urls": [] },
+		{
+			"name": "tetra",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/tetraplus/pooltoysummer"
+				},
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/tetrafox/tetra-may-twenty-thirst-pooltoysummer/"
+				}
+			]
+		},
+		{ "name": "Tibbz", "set_urls": [] },
+		{ "name": "Wuuzi", "set_urls": [] },
+		{
+			"name": "Facade B2B Szop",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/perfectfacade/szop_and_me_getting_may_twenty_thirsty_pooltoys_n_shitmp4/"
+				}
+			]
+		},
+		{ "name": "mawrshie", "set_urls": [] }
+	]
+}

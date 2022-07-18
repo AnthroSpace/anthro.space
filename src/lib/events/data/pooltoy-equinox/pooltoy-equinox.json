@@ -1,0 +1,93 @@
+{
+	"slug": "pooltoy-equinox",
+	"name": "POOLTOY EQUINOX",
+	"date": "06-25-2021",
+	"images": {
+		"hero": "hero.jpg",
+		"posters": ["poster.png", "set_times.png"],
+		"screenshots": []
+	},
+	"lineup": [
+		{ "name": "Svix", "set_urls": [] },
+		{
+			"name": "Gaba Neon",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/gabaneon/gaba-neon-pool-toy-equinox"
+				},
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/gabaneon/gaba-neon-pool-toy-equinox/"
+				}
+			]
+		},
+		{
+			"name": "Fennik (WTP!)",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/whatthepup2/what-the-pup-pres-fennik-pooltoy-equinox"
+				}
+			]
+		},
+		{
+			"name": "Twink-182",
+			"set_urls": [
+				{
+					"name": "SoundCloud",
+					"url": "https://soundcloud.com/wiicore/twink-182-pooltoy-equinox-anthrospace"
+				}
+			]
+		},
+		{
+			"name": "ratyawns",
+			"set_urls": [{ "name": "SoundCloud", "url": "https://soundcloud.com/starmie/furry-fest" }]
+		},
+		{ "name": "draz", "set_urls": [] },
+		{
+			"name": "Tibbz",
+			"set_urls": [
+				{
+					"name": "Tibbz",
+					"url": "https://www.mixcloud.com/TibbTaicho/tibbz-pooltoysummer-6-25-2021/"
+				}
+			]
+		},
+		{
+			"name": "Keva",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/kevybevy/keva-pooltoy-equinox-2021/"
+				}
+			]
+		},
+		{ "name": "Pyr", "set_urls": [] },
+		{
+			"name": "Magus",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "mixcloud.com/GalaxyMagus/magus-pooltoy-equinox/"
+				}
+			]
+		},
+		{ "name": "Whitty", "set_urls": [] },
+		{
+			"name": "Tarocco",
+			"set_urls": [
+				{ "name": "SoundCloud", "url": "https://soundcloud.com/tarocco/pooltoy-equinox-2021" }
+			]
+		},
+		{
+			"name": "trndytrndy",
+			"set_urls": [
+				{
+					"name": "Mixcloud",
+					"url": "https://www.mixcloud.com/trndytrndy/trndytrndy-pooltoy-equinox-62521/"
+				}
+			]
+		}
+	]
+}

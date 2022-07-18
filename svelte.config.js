@@ -1,16 +1,25 @@
 import adapter from "@sveltejs/adapter-auto";
 import preprocess from "svelte-preprocess";
-// import type {Config} from "@sveltejs/kit";
+import importAssets from "svelte-preprocess-import-assets";
+
+import { sequence } from "./sequence.js";
 
 const config = {
-	preprocess: [
+	preprocess: sequence([
 		preprocess({
 			scss: {
 				prependData: `@use "src/variables.scss" as *;`
 			},
 			postcss: true
-		})
-	],
+		}),
+		importAssets()
+	]),
+
+	// vitePlugin: {
+	// 	experimental: {
+	// 		useVitePreprocess: true
+	// 	}
+	// },
 
 	kit: {
 		adapter: adapter(),
