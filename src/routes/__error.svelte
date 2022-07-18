@@ -45,7 +45,7 @@
 	<a href="/" class="btn">🡐 back to home</a>
 </section>
 
-<HeroBg src="/video/noise.webm" isVideo />
+<HeroBg src="/video/noise.mp4" isVideo />
 
 <style lang="scss">
 	section {
