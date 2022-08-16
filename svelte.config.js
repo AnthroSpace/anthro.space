@@ -10,16 +10,10 @@ const config = {
 			scss: {
 				prependData: `@use "src/variables.scss" as *;`
 			},
-			postcss: true
+			// postcss: true
 		}),
 		importAssets()
 	]),
-
-	// vitePlugin: {
-	// 	experimental: {
-	// 		useVitePreprocess: true
-	// 	}
-	// },
 
 	kit: {
 		adapter: adapter(),
