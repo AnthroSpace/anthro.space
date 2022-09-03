@@ -2690,10 +2690,10 @@ vite-imagetools@4.0.8:
     imagetools-core "^3.2.0"
     magic-string "^0.26.0"
 
-vite-plugin-dynamic-import@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-1.2.0.tgz#c2166b0e06afa42726d08da04a765ac3bc9696b8"
-  integrity sha512-cqundO3bPLeYy9E3Ta2wmGfrGngZbEms0ze8vGExIWriN/EVTU0oCZM+PCr9z3gxEb1lFuC2HQZ89i0C0wEt5g==
+vite-plugin-dynamic-import@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-1.2.1.tgz#cdd065b6cf482461bccf06dfcd0d248beae7a5cd"
+  integrity sha512-g2F7/0ALT0co+TKufxmPywv4ZbPDn9hCdw/Kq+TTA766OP9EHHKvLdso5IW+pKxjGuUAgJY6uQPvs4JWoqLueg==
   dependencies:
     fast-glob "~3.2.11"
     vite-plugin-utils "~0.3.0"
