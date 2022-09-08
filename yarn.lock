@@ -1240,7 +1240,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.2.7, fast-glob@^3.2.9, fast-glob@~3.2.11:
+fast-glob@^3.2.7, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
@@ -2690,18 +2690,10 @@ vite-imagetools@4.0.9:
     imagetools-core "^3.2.1"
     magic-string "^0.26.0"
 
-vite-plugin-dynamic-import@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-1.2.1.tgz#cdd065b6cf482461bccf06dfcd0d248beae7a5cd"
-  integrity sha512-g2F7/0ALT0co+TKufxmPywv4ZbPDn9hCdw/Kq+TTA766OP9EHHKvLdso5IW+pKxjGuUAgJY6uQPvs4JWoqLueg==
-  dependencies:
-    fast-glob "~3.2.11"
-    vite-plugin-utils "~0.3.0"
-
-vite-plugin-utils@~0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-utils/-/vite-plugin-utils-0.3.0.tgz#0aebb1076d880adc60ac48b8008907c7100b96bb"
-  integrity sha512-JQEnvbBuWy/ILSzbRkrhH2PCT4MmIrmZUEMyOUKvTo134z1vAxlay4JuDdgOgt5rPfDpAkX/7cWY/jKFws9MUQ==
+vite-plugin-dynamic-import@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-1.2.2.tgz#700b3ebf42b5e80fdc4c117ce96d265434e6118e"
+  integrity sha512-50m5Whh9ZLzJouIcHhSzlcrieXx3YUiWAel4twcaNvZIlV9AbRud8e1qAunzpHZKTKPwujhkZps3O6XwebRGLg==
 
 vite@3.1.0:
   version "3.1.0"
