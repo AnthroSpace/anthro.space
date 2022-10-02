@@ -41,7 +41,7 @@
 		"vite-plugin-dynamic-import": "1.2.2"
 	},
 	"dependencies": {
-		"@fontsource/fira-mono": "4.5.9",
+		"@fontsource/fira-mono": "4.5.10",
 		"@fontsource/material-icons": "4.5.4",
 		"@fontsource/varela": "4.5.9"
 	}
