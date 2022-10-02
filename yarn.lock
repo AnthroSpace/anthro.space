@@ -1487,7 +1487,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.25.7:
+magic-string@^0.25.7, magic-string@^0.25.9:
   version "0.25.9"
   resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
   integrity sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==
@@ -2375,12 +2375,18 @@ svelte-hmr@^0.14.12:
   resolved "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.14.12.tgz"
   integrity sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==
 
-svelte-preprocess-import-assets@0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess-import-assets/-/svelte-preprocess-import-assets-0.1.6.tgz#1acf485c390db6728443aaf5ab5382b1d2a28c55"
-  integrity sha512-Jo5bw4BantaaLxGCjrp8UjtD4UliW0mUPsMHSV1HRfkUo3O3kj4NM+E4YICdt+XKUx72bgjuaIbILsGTH55E+A==
+svelte-parse-markup@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/svelte-parse-markup/-/svelte-parse-markup-0.1.1.tgz#59a5b6f07d30c7b8f39aace13ca951f81b1b011a"
+  integrity sha512-xCBSldaZdwi0u0ANASVCUFynCaV8z5D6sQOnzPcYSEoD9dd40MLzOKMBVmuTf/LUuPvc+cUvF132MnwdG7mDig==
+
+svelte-preprocess-import-assets@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess-import-assets/-/svelte-preprocess-import-assets-0.2.0.tgz#9d40b10d713a7ffb7eab800be2c312fe25e80db5"
+  integrity sha512-K7tMGS2Az1doT43B8W3aeJStoe0qDtTHJXncA1I1SZLXnFIBM1mDT21g5nDYu6a+2tZHqX3oLl7m9At/npO+Zg==
   dependencies:
-    magic-string "^0.25.7"
+    magic-string "^0.25.9"
+    svelte-parse-markup "^0.1.0"
 
 svelte-preprocess@4.10.7, svelte-preprocess@^4.0.0:
   version "4.10.7"
