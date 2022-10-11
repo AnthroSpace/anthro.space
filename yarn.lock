@@ -2520,10 +2520,10 @@ svelte-parse-markup@^0.1.1:
   resolved "https://registry.yarnpkg.com/svelte-parse-markup/-/svelte-parse-markup-0.1.1.tgz#59a5b6f07d30c7b8f39aace13ca951f81b1b011a"
   integrity sha512-xCBSldaZdwi0u0ANASVCUFynCaV8z5D6sQOnzPcYSEoD9dd40MLzOKMBVmuTf/LUuPvc+cUvF132MnwdG7mDig==
 
-svelte-preprocess-import-assets@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess-import-assets/-/svelte-preprocess-import-assets-0.2.1.tgz#6b0c7a02e93eb1c665bf271085d02f524637be28"
-  integrity sha512-/3S0XUctFg/dS+/DwejmQhNQQyPPQVnYYbrU64kfWe9kHw+aXahmqax9BWFr3GJ1Cvs7NmSYT7gyxSdAjljdSQ==
+svelte-preprocess-import-assets@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess-import-assets/-/svelte-preprocess-import-assets-0.2.2.tgz#efcd46b638b466d5df01360e56036722fab6b3b9"
+  integrity sha512-5omtHEvC2LizvCrOJBI+lcXtC9w2zIRXzopQz3ZecmaoTrGwrQeIT2FF+dx1uIqgxj77Ddk9W+fhmkrRwjICwg==
   dependencies:
     magic-string "^0.25.9"
     svelte-parse-markup "^0.1.1"
