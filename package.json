@@ -34,7 +34,7 @@
 		"svelte-preprocess": "4.10.7",
 		"svelte-preprocess-import-assets": "0.2.2",
 		"svelte2tsx": "0.5.20",
-		"tslib": "2.4.0",
+		"tslib": "2.4.1",
 		"typescript": "4.8.4",
 		"vite": "3.2.2",
 		"vite-imagetools": "4.0.11",
