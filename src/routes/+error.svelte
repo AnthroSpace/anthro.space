@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<!-- <script lang="ts" context="module">
 	import type { Load } from "./__types/__error";
 
 	export const load: Load = ({ error, status }) => {
@@ -12,7 +12,7 @@
 </script>
 
 <script lang="ts">
-	import { dev } from "$app/env";
+	import { dev } from "$app/environment";
 
 	import HeroBg from "$components/hero-bg/hero-bg.svelte";
 
@@ -51,4 +51,6 @@
 	section {
 		text-align: center;
 	}
-</style>
+</style> -->
+
+oops

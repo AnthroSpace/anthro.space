@@ -1,26 +1,12 @@
-<script lang="ts" context="module">
-	import type { Load } from "./__types/index";
-	import type { GET } from "./index";
-
-	type InputProps = NonNullable<Awaited<ReturnType<typeof GET>>["body"]>; // infer type
-	type OutputProps = InputProps;
-
-	export const load: Load<InputProps, OutputProps> = ({ props }) => {
-		return {
-			props: {
-				event: props.event
-			}
-		};
-	};
-</script>
-
 <script lang="ts">
+	import type { PageData } from './$types';
 	import type { Event } from "$lib/events/db";
 
 	import HeroBg from "$components/hero-bg/hero-bg.svelte";
 	import "./style.scss";
 
-	export let event: Event;
+	export let data: PageData;
+	let event: Event = data.event;
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { EventMetadata } from "$lib/events/db";
-	export let events: EventMetadata[];
+	import type { PageData } from './$types';
+	export let data: PageData;
 	import "./style.scss";
 </script>
 
@@ -12,7 +12,7 @@
 	<h1>Past Events</h1>
 
 	<div id="event-list">
-		{#each events as event}
+		{#each data.events as event}
 			<div class="event">
 				<a sveltekit:prefetch href={event.path} class="event-link">{event.name}</a>
 				<span class="event-date">{event.date}</span>

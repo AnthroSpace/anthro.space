@@ -1,13 +1,9 @@
-<script lang="ts" context="module">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import { team } from "$lib/stores";
 	import HeroBg from "$components/hero-bg/hero-bg.svelte";
 	import MemberList from "$components/memberlist/memberlist.svelte";
 	import "./_styles/index.scss";
-	const live = true;
+	const live = false;
 </script>
 
 <svelte:head>
