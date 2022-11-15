@@ -14,7 +14,7 @@
 	<div id="event-list">
 		{#each data.events as event}
 			<div class="event">
-				<a sveltekit:prefetch href={event.path} class="event-link">{event.name}</a>
+				<a data-sveltekit-prefetch href={event.path} class="event-link">{event.name}</a>
 				<span class="event-date">{event.date}</span>
 			</div>
 		{/each}

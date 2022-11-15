@@ -32,18 +32,23 @@ export const getEvent = (name: string): Event | null => {
 	if (!event) return null;
 
 	// hydrate the lineup with information from _roster.json
-
-	event.lineup.forEach((lineupEntry: DJ) => {
-		const rosterEntry = roster.find(
-			(entry: DJ) => entry.name.toLowerCase() === lineupEntry.name.toLowerCase()
-		);
-		if (!rosterEntry) return;
+	// event.lineup.forEach((lineupEntry: LineupDJ) => {
+	// 	const rosterEntry = roster.find(
+	// 		(entry: DJ) => entry.id.toLowerCase() === lineupEntry.name.toLowerCase()
+	// 	);
+	// 	if (!rosterEntry) return;
 		
-		lineupEntry.links = rosterEntry.links;
-	});
-
+	// 	lineupEntry.links = rosterEntry.links;
+	// });
 
 	return event;
+};
+
+export const getDjById = (id: string): DJ | null => {
+	const dj = roster.find((dj: DJ) => {
+		return dj.id.toLowerCase() === id.toLowerCase();
+	});
+	return dj ? dj : null;
 };
 
 export type EventMetadata = {
@@ -62,7 +67,7 @@ export type Event = {
 		posters: string[];
 		screenshots: string[];
 	};
-	lineup: LineupDJ[];
+	lineup: Act[];
 };
 
 type NamedLink = {
@@ -70,9 +75,14 @@ type NamedLink = {
 	url: string;
 };
 
-type DJ = {
+export type DJ = {
+	id: string;
 	name: string;
 	links: NamedLink[];
 };
 
-type LineupDJ = DJ & { set_urls: NamedLink[] };
+type Act = {
+	alias: string | null;
+	djs: string[];
+	set_urls: NamedLink[];
+};

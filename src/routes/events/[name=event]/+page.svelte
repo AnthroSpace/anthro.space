@@ -1,18 +1,33 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-	import type { Event } from "$lib/events/db";
+	import type { PageData } from "./$types";
+	import type { Event, DJ } from "$lib/events/db";
 
+	import { writable } from "svelte/store";
+	import Modal, { bind } from "svelte-simple-modal";
+	const modal = writable(null);
+
+	import ProfileCard from "$components/profile-card/ProfileCard.svelte";
 	import HeroBg from "$components/hero-bg/hero-bg.svelte";
+	import roster from "$lib/events/data/_roster.json";
+
+	import { getDjById } from "$lib/events/db";
 	import "./style.scss";
 
 	export let data: PageData;
 	let event: Event = data.event;
+
+	const openProfile = (e: MouseEvent & { currentTarget: EventTarget & HTMLDivElement }) => {
+		const djIDs = e.composedPath()[1].dataset.id.split(",");
+		const djs = roster.filter((dj) => djIDs.includes(dj.id));
+
+		modal.set(bind(ProfileCard, { djs }));
+	};
 </script>
 
 <svelte:head>
 	<title>AnthroSpace | {event.name}</title>
 </svelte:head>
-
+<Modal show={$modal} unstyled={true} classBg="modalBg" classWindowWrap="modalWrap" classWindow="modalWindow" classContent="modalContent" closeButton={false}/>
 <section id="landing">
 	<h1>{event.name}</h1>
 	<p>{event.date}</p>
@@ -26,19 +41,19 @@
 
 <section id="event-lineup" class="content">
 	<h1>Lineup</h1>
-	{#each event.lineup as dj}
-		<div class="dj">
-			<div class="profile" style="background-image:url('/events/dj-imgs/{dj.name.toLowerCase().replace(/[^a-z0-9]/gi, "-")}.jpg');" />
+	{#each event.lineup as act}
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div class="dj" data-id={act.djs}>
+			<div
+				class="profile"
+				style="background-image:url('/events/profile-photos/{act.djs[0]}.jpg');"
+				on:click={openProfile}
+			/>
 			<div class="details">
-				<span class="name">{dj.name}</span>
-				{#if dj.links[0]}
-					{#each dj.links as link}
-						<a class="link" href={link.url}>{link.name}</a>
-					{/each}
-				{/if}
-				{#if dj.set_urls[0]}
+				<span class="name">{act.alias || getDjById(act.djs[0]).name}</span>
+				{#if act.set_urls[0]}
 					<span>Published set:</span>
-					{#each dj.set_urls as set_url}
+					{#each act.set_urls as set_url}
 						<a class="link set-url" href={set_url.url}>{set_url.name}</a>
 					{/each}
 				{/if}

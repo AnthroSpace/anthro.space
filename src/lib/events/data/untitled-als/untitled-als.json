@@ -9,32 +9,36 @@
 	},
 	"lineup": [
 		{
-			"name": "Icedog",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["7e913c13-ab06-47f7-a383-ff05c470712d"]
 		},
 		{
-			"name": "Whitty",
 			"set_urls": [
 				{
 					"name": "SoundCloud",
 					"url": "https://soundcloud.com/user-96557785/whos-ready-for-some-mashcore-memes/s-XFVn1PcHgVR"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"]
 		},
 		{
-			"name": "Kairoo",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["55c28db2-0ca2-427d-96fc-771734071399"]
 		},
 		{
-			"name": "Aurora",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["74c64c4d-7420-4c06-b523-9fe865fc4a62"]
 		},
 		{
-			"name": "mawrshie",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["c1d188bd-a461-4121-983b-4442c542cb61"]
 		},
 		{
-			"name": "Gaba Neon",
 			"set_urls": [
 				{
 					"name": "SoundCloud",
@@ -44,25 +48,30 @@
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/gabaneon/gaba-neon-untitledals-apr-2nd/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"]
 		},
 		{
-			"name": "LITTLE NICE EGGS",
 			"set_urls": [
 				{ "name": "SoundCloud", "url": "https://soundcloud.com/tetraplus/littleniceeggs" },
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/tetrafox/little-nice-eggs-untitledals-tetra-b2b-facade/"
 				}
-			]
+			],
+			"alias": "LITTLE NICE EGGS",
+			"djs": ["476317dd-1cb1-4f28-9f39-b99e980a95e7", "9098ac55-325b-45fd-90b6-922a3e02aea1"]
 		},
 		{
-			"name": "Szop",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["dc98037a-b606-4475-a139-6c7a7bf53f3f"]
 		},
 		{
-			"name": "SanFear",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["db91e1aa-c3f6-4143-8044-b23c4c8b04d0"]
 		}
 	]
 }

@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="row links">
-		<a sveltekit:prefetch href="/events">PAST EVENTS</a>
+		<a data-sveltekit-prefetch href="/events">PAST EVENTS</a>
 		<a href="/twitch">TWITCH</a>
 		<!-- <a href="">MIXCLOUD</a>  -->
 		<a href="/twitter">TWITTER</a>

@@ -1,6 +1,4 @@
 section#live {
-	width: 100vw;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,7 +10,7 @@ section > #container {
 	gap: 15px;
 	justify-content: center;
 	width: 50vw;
-	height: 32vw;
+	height: 37vw;
 	& > p,
 	h1 {
 		color: white;

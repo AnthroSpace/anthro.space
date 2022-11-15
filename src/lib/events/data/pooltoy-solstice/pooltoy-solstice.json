@@ -8,95 +8,85 @@
 		"screenshots": []
 	},
 	"lineup": [
+		{ "set_urls": [], "alias": null, "djs": ["33415976-5027-4381-a280-128acdb44481"] },
+		{ "set_urls": [], "alias": null, "djs": ["74c64c4d-7420-4c06-b523-9fe865fc4a62"] },
 		{
-			"name": "Twink-182",
-			"set_urls": []
-		},
-		{
-			"name": "Aurora",
-			"set_urls": []
-		},
-		{
-			"name": "Gaba Neon",
 			"set_urls": [
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/gabaneon/gaba-neon-live-pooltoy-solstice/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"]
 		},
 		{
-			"name": "Facade",
 			"set_urls": [
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/perfectfacade/fuck-pooltoy-solstice-2022-we-doin-pooltoy-solstice-2016-idgaf/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["9098ac55-325b-45fd-90b6-922a3e02aea1"]
 		},
+		{ "set_urls": [], "alias": null, "djs": ["55c28db2-0ca2-427d-96fc-771734071399"] },
 		{
-			"name": "Kairoo",
-			"set_urls": []
-		},
-		{
-			"name": "Magus",
 			"set_urls": [
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/GalaxyMagus/magus-pooltoy-solstice/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["d6e925dc-c8f5-4278-9067-b5d404d7d894"]
 		},
 		{
-			"name": "Keva",
 			"set_urls": [
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/kevas/keva-pooltoy-solstice-2022"
-				}
-			]
+				{ "name": "SoundCloud", "url": "https://soundcloud.com/kevas/keva-pooltoy-solstice-2022" }
+			],
+			"alias": null,
+			"djs": ["ae01a08e-eb1e-48a2-81c9-657d84f87bae"]
 		},
 		{
-			"name": "Whitty",
 			"set_urls": [
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/WhittyCat/pooltoy-solstice-07102022/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"]
 		},
 		{
-			"name": "adjacent silhouette",
 			"set_urls": [
 				{
 					"name": "Mixcloud",
 					"url": "https://www.mixcloud.com/adjacent_silhouette_/live-at-pooltoy-solstice-07092022/"
 				}
-			]
+			],
+			"alias": null,
+			"djs": ["a194f273-8e31-45d6-a4fd-21cc33dc9218"]
 		},
 		{
-			"name": "mawrshie",
-			"set_urls": [
-				{
-					"name": "YouTube",
-					"url": "https://www.youtube.com/watch?v=awf4Fz7u20M"
-				}
-			]
+			"set_urls": [{ "name": "YouTube", "url": "https://www.youtube.com/watch?v=awf4Fz7u20M" }],
+			"alias": null,
+			"djs": ["c1d188bd-a461-4121-983b-4442c542cb61"]
 		},
 		{
 			"name": "wolfmagic",
-			"set_urls": []
+			"set_urls": [],
+			"alias": null,
+			"djs": ["cee1fc9f-ba6b-4ae9-ab9d-3689903f2404"]
 		},
 		{
-			"name": "tetra",
 			"set_urls": [
 				{ "name": "YouTube", "url": "https://www.youtube.com/watch?v=e5P3d6X3TL0" },
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/tetraplus/ptsol"
-				},
+				{ "name": "SoundCloud", "url": "https://soundcloud.com/tetraplus/ptsol" },
 				{ "name": "Mixcloud", "url": "https://www.mixcloud.com/tetrafox/tetra-pooltoy-solstice/" }
-			]
+			],
+			"alias": null,
+			"djs": ["476317dd-1cb1-4f28-9f39-b99e980a95e7"]
 		}
 	]
 }

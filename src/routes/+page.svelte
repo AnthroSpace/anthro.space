@@ -2,7 +2,7 @@
 	import { team } from "$lib/stores";
 	import HeroBg from "$components/hero-bg/hero-bg.svelte";
 	import MemberList from "$components/memberlist/memberlist.svelte";
-	import "./_styles/index.scss";
+	import "./index.scss";
 	const live = false;
 </script>
 
@@ -21,7 +21,7 @@
 		through the form of live vrchat events
 	</p>
 	{#if live}
-		<p>we are LIVE: <a sveltekit:prefetch href="/live">WATCH</a></p>
+		<p>we are LIVE: <a data-sveltekit-prefetch href="/live">WATCH</a></p>
 	{/if}
 	<span id="scrollarrow">↓</span>
 	<HeroBg src="/video/hero.mp4" dim isVideo />
