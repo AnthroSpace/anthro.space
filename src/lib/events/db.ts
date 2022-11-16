@@ -1,6 +1,6 @@
 import roster from "$lib/events/data/_roster.json";
 
-const getEventFiles = (): Event[] => {
+const readEvents = (): Event[] => {
 	return Object.entries(
 		import.meta.glob<Event>(["$lib/events/data/**/*.json", "!**/_*.json"], {
 			eager: true
@@ -9,11 +9,9 @@ const getEventFiles = (): Event[] => {
 };
 
 export const listEvents = (): EventMetadata[] => {
-	const events = getEventFiles();
+	const events = readEvents();
 
-	events.sort((a, b): number => {
-		return new Date(b.date).getTime() - new Date(a.date).getTime();
-	});
+	events.sort((a, b): number => new Date(b.date).getTime() - new Date(a.date).getTime());
 
 	return events.map((event): EventMetadata => {
 		// reduce to what is needed by the client at this point
@@ -26,28 +24,14 @@ export const listEvents = (): EventMetadata[] => {
 };
 
 export const getEvent = (name: string): Event | null => {
-	const event = getEventFiles().find((event: Event) => {
-		return event.slug === name;
-	});
+	const event = readEvents().find((event: Event) => event.slug === name);
 	if (!event) return null;
-
-	// hydrate the lineup with information from _roster.json
-	// event.lineup.forEach((lineupEntry: LineupDJ) => {
-	// 	const rosterEntry = roster.find(
-	// 		(entry: DJ) => entry.id.toLowerCase() === lineupEntry.name.toLowerCase()
-	// 	);
-	// 	if (!rosterEntry) return;
-		
-	// 	lineupEntry.links = rosterEntry.links;
-	// });
 
 	return event;
 };
 
 export const getDjById = (id: string): DJ | null => {
-	const dj = roster.find((dj: DJ) => {
-		return dj.id.toLowerCase() === id.toLowerCase();
-	});
+	const dj = roster.find((dj: DJ) => dj.id.toLowerCase() === id.toLowerCase());
 	return dj ? dj : null;
 };
 

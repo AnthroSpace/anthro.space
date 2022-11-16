@@ -16,8 +16,7 @@
 	export let data: PageData;
 	let event: Event = data.event;
 
-	const openProfile = (e: MouseEvent & { currentTarget: EventTarget & HTMLDivElement }) => {
-		const djIDs = e.composedPath()[1].dataset.id.split(",");
+	const openProfile = (djIDs: string[]) => {
 		const djs = roster.filter((dj) => djIDs.includes(dj.id));
 
 		modal.set(bind(ProfileCard, { djs }));
@@ -42,12 +41,14 @@
 <section id="event-lineup" class="content">
 	<h1>Lineup</h1>
 	{#each event.lineup as act}
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<div class="dj" data-id={act.djs}>
+		<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+		<div class="act">
 			<div
+				tabindex="0"
 				class="profile"
 				style="background-image:url('/events/profile-photos/{act.djs[0]}.jpg');"
-				on:click={openProfile}
+				on:click={() => openProfile(act.djs)}
+				on:keyup={(e) => e.key === "Enter" && openProfile(act.djs)}
 			/>
 			<div class="details">
 				<span class="name">{act.alias || getDjById(act.djs[0]).name}</span>

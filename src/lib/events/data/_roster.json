@@ -2,133 +2,243 @@
 	{
 		"id": "a194f273-8e31-45d6-a4fd-21cc33dc9218",
 		"name": "adjacent silhouette",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/adjacentsilhou1" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/adjacentsilhou1" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/adjacent_silhouette_/" },
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/user-38252451" },
+			{ "name": "YouTube", "url": "https://www.youtube.com/channel/UCgUuzR2JFyaSzLGGDTCV5xg" }
+		]
 	},
 	{
 		"id": "74c64c4d-7420-4c06-b523-9fe865fc4a62",
 		"name": "Aurora",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/HelixVexium" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/HelixVexium" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/HelixVexium/" }
+		]
 	},
 	{
 		"id": "72dd7318-b3d3-4587-a102-0f3dbdf78e36",
 		"name": "Debisco",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/debiscomusic" }]
+		"links": [
+			{ "name": "Website", "url": "http://debiscomusic.com" },
+			{ "name": "Bandcamp", "url": "https://debisco.bandcamp.com/" },
+			{ "name": "Twitter", "url": "https://twitter.com/debiscomusic" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/djscratchin/" },
+			{ "name": "cohost", "url": "https://cohost.org/debisco" },
+			{ "name": "YouTube", "url": "https://www.youtube.com/channel/UCTthly7wYv0kSfSy5ySCgEA" },
+			{
+				"name": "Spotify",
+				"url": "https://open.spotify.com/artist/2TPPLezwzP7WedFAme9Ws0?si=_g0jnLw2QKuhuU3xpEcOQw&nd=1"
+			},
+			{ "name": "Patreon", "url": "https://www.patreon.com/debisco" }
+		]
 	},
 	{
 		"id": "24bf6213-3fab-4a90-8bab-e462ad187cdf",
 		"name": "draz",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/fuckdraz" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/fuckdraz" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "9098ac55-325b-45fd-90b6-922a3e02aea1",
 		"name": "Facade",
-		"links": [{ "name": "SoundCloud", "url": "//soundcloud.com/oneofthefacades" }]
+		"links": [
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/oneofthefacades" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/perfectfacade/" }
+		]
 	},
 	{
 		"id": "e06c9c74-2caf-4068-9ba2-5d055deb3b2b",
 		"name": "Fennik (WTP!)",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/whosWhatthePUP" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/whosWhatthePUP" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "f41414d4-db95-4532-b6b1-ef3fa7daa861",
 		"name": "Gaba Neon",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/GabaNeon" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/GabaNeon" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/gabaneon/" }
+		]
 	},
 	{
 		"id": "7e913c13-ab06-47f7-a383-ff05c470712d",
 		"name": "Icedog",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/frostywoofs" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/frostywoofs" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "55c28db2-0ca2-427d-96fc-771734071399",
 		"name": "Kairoo",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/KairooSays" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/KairooSays" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "ae01a08e-eb1e-48a2-81c9-657d84f87bae",
 		"name": "Keva",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/kevybevy" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/kevybevy" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/kevybevy/" }
+		]
 	},
 	{
 		"id": "d6e925dc-c8f5-4278-9067-b5d404d7d894",
 		"name": "Magus",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/GalaxyMagus" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/GalaxyMagus" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/GalaxyMagus/" }
+		]
 	},
 	{
 		"id": "c1d188bd-a461-4121-983b-4442c542cb61",
 		"name": "mawrshie",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/mawrshie" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/mawrshie" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "4e6369b6-deb3-43eb-810a-521646176a66",
 		"name": "Pyr",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/Pyrferno" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/Pyrferno" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/drew-pyrferno-hayden/" }
+		]
 	},
 	{
 		"id": "3552263e-1f0c-4247-8d5a-fa3a98a910e8",
 		"name": "ratyawns",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/bugmoder" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/bugmoder" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "db91e1aa-c3f6-4143-8044-b23c4c8b04d0",
 		"name": "SanFear",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/SanXCX" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/SanXCX" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/Sanfear/" }
+		]
 	},
 	{
 		"id": "37fc049b-28da-481e-8184-ce820ec42871",
 		"name": "Svix",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/Svixy" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/Svixy" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "dc98037a-b606-4475-a139-6c7a7bf53f3f",
 		"name": "Szop",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/fxSzop" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/fxSzop" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "fd291b12-9218-4298-8692-2662ebf024f2",
 		"name": "Tarocco",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/tarocco_bun" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/tarocco_bun" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "476317dd-1cb1-4f28-9f39-b99e980a95e7",
 		"name": "tetra",
 		"links": [
-			{ "name": "Twitter", "url": "//twitter.com/etra_t" },
-			{ "name": "SoundCloud", "url": "//soundcloud.com/tetramsic" },
+			{ "name": "Twitter", "url": "https://twitter.com/etra_t" },
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/tetramsic" },
 			{
 				"name": "Spotify",
-				"url": "//open.spotify.com/artist/3BCEPJ0GHgaZzCD5cSTEjv?si=vQ0-SYq4S6m_oiauOsS4Ww"
+				"url": "https://open.spotify.com/artist/3BCEPJ0GHgaZzCD5cSTEjv?si=vQ0-SYq4S6m_oiauOsS4Ww"
 			}
 		]
 	},
 	{
 		"id": "a7c0084b-d916-41e1-b1df-9894ad48f9ca",
 		"name": "Tibbz",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/BeerDude69" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/BeerDude69" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "55da5662-12db-4d37-bfe0-2fc9f9c8b44a",
 		"name": "trndytrndy",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/trndytrndy" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/trndytrndy" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/trndytrndy/" }
+		]
 	},
 	{
 		"id": "33415976-5027-4381-a280-128acdb44481",
 		"name": "Twink-182",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/LEMONKEEPERRR" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/LEMONKEEPERRR" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "fd9e9edc-b0b3-48df-870c-345334f71451",
 		"name": "Whitty",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/Whitty_Cat" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/Whitty_Cat" },
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/WhittyCat/" }
+		]
 	},
 	{
 		"id": "cee1fc9f-ba6b-4ae9-ab9d-3689903f2404",
 		"name": "wolfmagic",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/iamwolfmagic" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/iamwolfmagic" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	},
 	{
 		"id": "c30dbf9f-9bfd-449b-a979-900c706a95fe",
 		"name": "Wuuzi",
-		"links": [{ "name": "Twitter", "url": "//twitter.com/wuuziwuuzi" }]
+		"links": [
+			{ "name": "Twitter", "url": "https://twitter.com/wuuziwuuzi" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" },
+			{ "name": "", "url": "" }
+		]
 	}
 ]
