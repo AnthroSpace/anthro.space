@@ -39,9 +39,7 @@
 		"name": "draz",
 		"links": [
 			{ "name": "Twitter", "url": "https://twitter.com/fuckdraz" },
-			{ "name": "", "url": "" },
-			{ "name": "", "url": "" },
-			{ "name": "", "url": "" }
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/fuckdraz" }
 		]
 	},
 	{
@@ -67,7 +65,8 @@
 		"name": "Gaba Neon",
 		"links": [
 			{ "name": "Twitter", "url": "https://twitter.com/GabaNeon" },
-			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/gabaneon/" }
+			{ "name": "Mixcloud", "url": "https://www.mixcloud.com/gabaneon/" },
+			{ "name":"SoundCloud", "url":"https://soundcloud.com/gabaneon"}
 		]
 	},
 	{
@@ -75,7 +74,7 @@
 		"name": "Icedog",
 		"links": [
 			{ "name": "Twitter", "url": "https://twitter.com/frostywoofs" },
-			{ "name": "", "url": "" },
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/icedog25" },
 			{ "name": "", "url": "" },
 			{ "name": "", "url": "" }
 		]
@@ -85,7 +84,7 @@
 		"name": "Kairoo",
 		"links": [
 			{ "name": "Twitter", "url": "https://twitter.com/KairooSays" },
-			{ "name": "", "url": "" },
+			{ "name": "SoundCloud", "url": "https://soundcloud.com/kairoodfox" },
 			{ "name": "", "url": "" },
 			{ "name": "", "url": "" }
 		]
