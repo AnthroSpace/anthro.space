@@ -10,7 +10,7 @@
 	<div class="profile-card">
 		<div
 			class="header"
-			style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73)),url('/events/profile-photos/{dj.id}.jpg');"
+			style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73)),url('/img/profile-photos/{dj.id}.jpg');"
 		>
 			<h1>{dj.name}</h1>
 		</div>

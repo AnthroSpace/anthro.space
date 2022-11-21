@@ -1,6 +1,6 @@
 import adapter from "@sveltejs/adapter-auto";
 import preprocess from "svelte-preprocess";
-import importAssets from "svelte-preprocess-import-assets";
+import image from "svelte-image";
 
 import { sequence } from "./sequence.js";
 
@@ -9,10 +9,9 @@ const config = {
 		preprocess({
 			scss: {
 				prependData: `@use "src/variables.scss" as *;`
-			},
+			}
 			// postcss: true
-		}),
-		importAssets()
+		})
 	]),
 
 	kit: {

@@ -2,10 +2,8 @@ import type { PageServerLoad } from "./$types";
 import type { Event } from "$lib/events/db";
 import { getEvent } from "$lib/events/db";
 
-export const load: PageServerLoad = async ({ url, params }) => {
+export const load: PageServerLoad = async ({ params }) => {
 	const event: Event = JSON.parse(JSON.stringify(getEvent(params.name))); // clone event
-
-	if (!event) return { status: 404 };
 
 	// Object.entries(event.images).forEach(([key, value]) => {
 	// 	if (!Array.isArray(value)) {
@@ -26,8 +24,8 @@ export const load: PageServerLoad = async ({ url, params }) => {
 	// 	});
 	// });
 
-	event.images.posters = event.images.posters.map((p: string) => url.pathname + "/" + p + "?webp"); // prepend pathname to each poster (because they are relative paths)
-	if (event.images.hero) event.images.hero = url.pathname + "/" + event.images.hero;
+	event.images.posters = event.images.posters.map((p: string) => "/img/events/" + event.slug + "/" + p);
+	if (event.images.hero) event.images.hero = "/img/events/" + event.slug + "/" + event.images.hero;
 	return {
 		event
 	};

@@ -30,6 +30,7 @@
 		"sass": "1.56.1",
 		"svelte": "3.53.1",
 		"svelte-check": "2.9.2",
+		"svelte-image": "^0.2.9",
 		"svelte-preprocess": "4.10.7",
 		"svelte-preprocess-import-assets": "0.2.2",
 		"svelte-simple-modal": "^1.4.5",
