@@ -38,7 +38,7 @@
 		"typescript": "4.9.3",
 		"vite": "3.2.4",
 		"vite-imagetools": "4.0.11",
-		"vite-plugin-dynamic-import": "1.2.3"
+		"vite-plugin-dynamic-import": "1.2.4"
 	},
 	"dependencies": {
 		"@fontsource/fira-mono": "4.5.10",
