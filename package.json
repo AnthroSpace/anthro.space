@@ -33,7 +33,7 @@
 		"svelte-preprocess": "5.0.0",
 		"svelte-preprocess-import-assets": "0.2.5",
 		"svelte-simple-modal": "^1.4.5",
-		"svelte2tsx": "0.5.22",
+		"svelte2tsx": "0.5.23",
 		"tslib": "2.4.1",
 		"typescript": "4.9.4",
 		"vite": "4.0.2",
