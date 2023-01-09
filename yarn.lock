@@ -1181,10 +1181,10 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-imagetools-core@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-3.2.3.tgz#407abe2f506d7ed7010b5aec7d9c08a696a1ee9d"
-  integrity sha512-YbZhedg/zja34yV6iRDhfo4cmAYSwxaErkuzc/RpMMAELgszpDKf3MLH6VlsR+QkenPUEGkGAVpJAM2GbUls9Q==
+imagetools-core@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-3.3.0.tgz#add344f22c86c54f9a1c432d19e9d8c75c6f8e8e"
+  integrity sha512-6irRDGeZc12n30I0V4Vi8pZxJNIYKe0/5uQVTU8h+TIYEnMz9BMEKqJUwfYcHngFPm/v8GugwELO6SeH7wmzLw==
   dependencies:
     sharp "^0.31.0"
 
@@ -2331,13 +2331,13 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite-imagetools@4.0.13:
-  version "4.0.13"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.13.tgz#f72f99218c8bc66817c8a13742103fd1fc7f9139"
-  integrity sha512-DeMAhDwvWATzBa5Qu9Fv6rtOuHZFONrv5Z5a95jd/oBDDCdyTKYVqxIurS5ox9A/sH8bhVF7r++Yww0DKpjKFQ==
+vite-imagetools@4.0.14:
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.14.tgz#96ae82cec3519b7433831857bbfab78deeada120"
+  integrity sha512-L49npgCvhQHTwSHBesJBw1bSUirmeKLjW5/le4w7FryZLy0DW63iNWSDPN29Q8n2po0p8aycD3uiXOi17x9U7Q==
   dependencies:
     "@rollup/pluginutils" "^5.0.0"
-    imagetools-core "^3.2.3"
+    imagetools-core "^3.3.0"
 
 vite-plugin-dynamic-import@1.2.4:
   version "1.2.4"
