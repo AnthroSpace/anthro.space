@@ -2353,10 +2353,10 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vite-imagetools@4.0.16:
-  version "4.0.16"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.16.tgz#e99bab4030a0ab70126dc4e6aee0057be86f2181"
-  integrity sha512-kjTIcscDYEXLxTeCRVZVArygEOgFBoG6pno6H6wBpq6R07Lov/zRDG7UX/yw3DgMFzeVPWJW8YuItT7M0puSDw==
+vite-imagetools@4.0.17:
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.17.tgz#c8ffca631fb94b8b5db2e12b6c6c8e5d04c371db"
+  integrity sha512-Nwe9zYrQBcIsmb21ABgr18WXycIa0CPnXpwJ6CmCHBZq0iies5PiYg2J45hQFmuEVNErX6ixARmNZILXxeJUXw==
   dependencies:
     "@rollup/pluginutils" "^5.0.0"
     imagetools-core "^3.3.1"
