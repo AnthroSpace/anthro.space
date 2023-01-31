@@ -35,7 +35,7 @@
 		"svelte-simple-modal": "^1.4.5",
 		"svelte2tsx": "0.6.0",
 		"tslib": "2.5.0",
-		"typescript": "4.9.4",
+		"typescript": "4.9.5",
 		"vite": "4.0.4",
 		"vite-imagetools": "4.0.17",
 		"vite-plugin-dynamic-import": "1.2.7"
