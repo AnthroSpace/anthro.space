@@ -31,7 +31,7 @@
 		"svelte": "3.55.1",
 		"svelte-check": "3.0.3",
 		"svelte-preprocess": "5.0.1",
-		"svelte-preprocess-import-assets": "0.2.5",
+		"svelte-preprocess-import-assets": "0.2.6",
 		"svelte-simple-modal": "^1.4.5",
 		"svelte2tsx": "0.6.1",
 		"tslib": "2.5.0",
