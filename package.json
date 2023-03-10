@@ -1,9 +1,17 @@
 {
 	"name": "anthro.space",
+	"author": "AnthroSpace",
 	"version": "0.0.1",
 	"license": "UNLICENSED",
 	"type": "module",
 	"private": true,
+	"engines": {
+		"node": ">=18.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AnthroSpace/anthro.space.git"
+	},
 	"scripts": {
 		"dev": "vite dev --host",
 		"build": "vite build",
@@ -14,7 +22,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "2.0.0",
+		"@sveltejs/adapter-vercel": "^2.3.1",
 		"@sveltejs/kit": "1.11.0",
 		"@typescript-eslint/eslint-plugin": "5.54.1",
 		"@typescript-eslint/parser": "5.54.1",
