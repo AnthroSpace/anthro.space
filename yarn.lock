@@ -2192,10 +2192,10 @@ svelte-simple-modal@^1.4.5:
   resolved "https://registry.yarnpkg.com/svelte-simple-modal/-/svelte-simple-modal-1.5.2.tgz#2a41e9985bc19dcd43d31d65bd0ffced59830c80"
   integrity sha512-kQ+9/bonxMMJe6dGTCPXBkYQQ4zF8rqqPp+PvTWOJB8QtB+Z0S/h7ZJRDZOAnkXTUClwd+Qmb2HHTIXVkjlSvA==
 
-svelte2tsx@0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.6.3.tgz#3cd2c5560b98a4abf863a7412f2f443b43ef985d"
-  integrity sha512-2e0rB9l7oih3CEa5S8OEYm1FvlXKj6c444hAVRMqt7LZgOm6oTu3FqfzIPXViDNh7LmU9Yb3PiYWhS7a7D7zow==
+svelte2tsx@0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.6.6.tgz#b8f890ade498d7e0463124441c8d68c0599502fe"
+  integrity sha512-Fz0g70hMmQC3ht4ThJxWk1CQ92HkeRwbmP48LCYZFxFPu9g1acNyVIssOstKgkPoLk+Xaq6fDme/+9YJcXs2GQ==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"
