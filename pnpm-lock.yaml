@@ -23,7 +23,7 @@ specifiers:
   svelte-preprocess: 5.0.1
   svelte-preprocess-import-assets: 0.2.6
   svelte-simple-modal: ^1.4.5
-  svelte2tsx: 0.6.6
+  svelte2tsx: 0.6.7
   tslib: 2.5.0
   typescript: 4.9.5
   vite: 4.1.4
@@ -55,7 +55,7 @@ devDependencies:
   svelte-preprocess: 5.0.1_dpngicqkqiaaqv7djzi5amcfoe
   svelte-preprocess-import-assets: 0.2.6_svelte@3.56.0
   svelte-simple-modal: 1.5.2_svelte@3.56.0
-  svelte2tsx: 0.6.6_rx3ssngbibhj4vpczagsdyy47u
+  svelte2tsx: 0.6.7_rx3ssngbibhj4vpczagsdyy47u
   tslib: 2.5.0
   typescript: 4.9.5
   vite: 4.1.4_sass@1.58.3
@@ -2792,8 +2792,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.6.6_rx3ssngbibhj4vpczagsdyy47u:
-    resolution: {integrity: sha512-Fz0g70hMmQC3ht4ThJxWk1CQ92HkeRwbmP48LCYZFxFPu9g1acNyVIssOstKgkPoLk+Xaq6fDme/+9YJcXs2GQ==}
+  /svelte2tsx/0.6.7_rx3ssngbibhj4vpczagsdyy47u:
+    resolution: {integrity: sha512-eqd/MxAx7GBIpzFIZq+YzDdCQNe9p0fUF1J+oG93jFR9uDiMHBst6Uofsz4EYyiW8RR6YDV2lwKGJ9jSRRnpSg==}
     peerDependencies:
       svelte: ^3.55
       typescript: ^4.9.4
