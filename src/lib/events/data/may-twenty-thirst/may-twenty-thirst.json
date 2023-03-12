@@ -1,73 +1,73 @@
 {
-	"slug": "may-twenty-thirst",
-	"name": "MAY TWENTY THIRST",
-	"date": "05-21-2021",
-	"images": {
-		"hero": "",
-		"posters": ["poster.png", "set_times.png"],
-		"screenshots": []
-	},
-	"lineup": [
-		{ "alias": null, "djs": ["72dd7318-b3d3-4587-a102-0f3dbdf78e36"], "set_urls": [] },
-		{ "alias": null, "djs": ["7e913c13-ab06-47f7-a383-ff05c470712d"], "set_urls": [] },
-		{
-			"alias": null,
-			"djs": ["74c64c4d-7420-4c06-b523-9fe865fc4a62"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/HelixVexium/helix-may-twenty-thirst-pooltoysummer/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/gabaneon/gabgab-may-twenty-thirst-pooltoysummer/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["d6e925dc-c8f5-4278-9067-b5d404d7d894"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/GalaxyMagus/magus-may-twenty-thirst/"
-				}
-			]
-		},
-		{ "alias": null, "djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"], "set_urls": [] },
-		{ "alias": null, "djs": ["55c28db2-0ca2-427d-96fc-771734071399"], "set_urls": [] },
-		{
-			"alias": null,
-			"djs": ["476317dd-1cb1-4f28-9f39-b99e980a95e7"],
-			"set_urls": [
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/tetraplus/pooltoysummer"
-				},
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/tetrafox/tetra-may-twenty-thirst-pooltoysummer/"
-				}
-			]
-		},
-		{ "alias": null, "djs": ["a7c0084b-d916-41e1-b1df-9894ad48f9ca"], "set_urls": [] },
-		{ "alias": null, "djs": ["c30dbf9f-9bfd-449b-a979-900c706a95fe"], "set_urls": [] },
-		{
-			"alias": "Facade B2B Szop",
-			"djs": ["9098ac55-325b-45fd-90b6-922a3e02aea1", "dc98037a-b606-4475-a139-6c7a7bf53f3f"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/perfectfacade/szop_and_me_getting_may_twenty_thirsty_pooltoys_n_shitmp4/"
-				}
-			]
-		},
-		{ "alias": null, "djs": ["c1d188bd-a461-4121-983b-4442c542cb61"], "set_urls": [] }
-	]
+  "slug": "may-twenty-thirst",
+  "name": "MAY TWENTY THIRST",
+  "date": "05-21-2021",
+  "images": {
+    "hero": "",
+    "posters": ["poster.png", "set_times.png"],
+    "screenshots": []
+  },
+  "lineup": [
+    { "alias": null, "djs": ["72dd7318-b3d3-4587-a102-0f3dbdf78e36"], "set_urls": [] },
+    { "alias": null, "djs": ["7e913c13-ab06-47f7-a383-ff05c470712d"], "set_urls": [] },
+    {
+      "alias": null,
+      "djs": ["74c64c4d-7420-4c06-b523-9fe865fc4a62"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/HelixVexium/helix-may-twenty-thirst-pooltoysummer/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/gabaneon/gabgab-may-twenty-thirst-pooltoysummer/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["d6e925dc-c8f5-4278-9067-b5d404d7d894"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/GalaxyMagus/magus-may-twenty-thirst/"
+        }
+      ]
+    },
+    { "alias": null, "djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"], "set_urls": [] },
+    { "alias": null, "djs": ["55c28db2-0ca2-427d-96fc-771734071399"], "set_urls": [] },
+    {
+      "alias": null,
+      "djs": ["476317dd-1cb1-4f28-9f39-b99e980a95e7"],
+      "set_urls": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/tetraplus/pooltoysummer"
+        },
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/tetrafox/tetra-may-twenty-thirst-pooltoysummer/"
+        }
+      ]
+    },
+    { "alias": null, "djs": ["a7c0084b-d916-41e1-b1df-9894ad48f9ca"], "set_urls": [] },
+    { "alias": null, "djs": ["c30dbf9f-9bfd-449b-a979-900c706a95fe"], "set_urls": [] },
+    {
+      "alias": "Facade B2B Szop",
+      "djs": ["9098ac55-325b-45fd-90b6-922a3e02aea1", "dc98037a-b606-4475-a139-6c7a7bf53f3f"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/perfectfacade/szop_and_me_getting_may_twenty_thirsty_pooltoys_n_shitmp4/"
+        }
+      ]
+    },
+    { "alias": null, "djs": ["c1d188bd-a461-4121-983b-4442c542cb61"], "set_urls": [] }
+  ]
 }

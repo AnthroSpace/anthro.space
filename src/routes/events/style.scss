@@ -1,21 +1,21 @@
 #event-list {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	text-align: left;
-	& > div.event {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: baseline;
-		gap: 15px;
-		& > a.event-link {
-			font-size: 1.25em;
-		}
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  & > div.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 15px;
+    & > a.event-link {
+      font-size: 1.25em;
+    }
 
-		& > span.event-date {
-			font-size: 0.8em;
-			color: $foreground-secondary;
-		}
-	}
+    & > span.event-date {
+      font-size: 0.8em;
+      color: $foreground-secondary;
+    }
+  }
 }

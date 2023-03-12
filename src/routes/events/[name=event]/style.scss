@@ -1,97 +1,97 @@
 #posters {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
-	min-height: 60vh;
-	min-width: 60vw;
-	gap: 10px;
+  min-height: 60vh;
+  min-width: 60vw;
+  gap: 10px;
 
-	& > .poster {
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
+  & > .poster {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	#posters {
-		grid-template-columns: 1fr;
-	}
+  #posters {
+    grid-template-columns: 1fr;
+  }
 }
 
 #event-lineup {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 10px;
-	max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  max-width: 100%;
 
-	& > .act {
-		border: 1px solid $background-tertiary;
-		display: flex;
-		min-height: 100px;
-		transition: $default-transition;
-		background-color: $background-secondary;
+  & > .act {
+    border: 1px solid $background-tertiary;
+    display: flex;
+    min-height: 100px;
+    transition: $default-transition;
+    background-color: $background-secondary;
 
-		& > .profile {
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
-			min-width: 100px;
-			height: 100%;
-			transition: $default-transition;
-			cursor: pointer;
-			&:hover {
-				filter: grayscale(0%);
-				min-width: 110px;
-			}
-		}
+    & > .profile {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-width: 100px;
+      height: 100%;
+      transition: $default-transition;
+      cursor: pointer;
+      &:hover {
+        filter: grayscale(0%);
+        min-width: 110px;
+      }
+    }
 
-		& > .details {
-			padding: 10px;
+    & > .details {
+      padding: 10px;
 
-			& > span {
-				&.name {
-					font-size: 1.5em;
-					line-height: 1.5em;
-				}
-				display: block;
-			}
+      & > span {
+        &.name {
+          font-size: 1.5em;
+          line-height: 1.5em;
+        }
+        display: block;
+      }
 
-			& > a.link {
-				margin-right: 5px;
-				&:last-child {
-					margin: 0;
-				}
-			}
-		}
-	}
+      & > a.link {
+        margin-right: 5px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 
 // modal styles
 .modalBg {
-	background: rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(5px);
-	z-index: 1000;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .modalWrap {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modalContent {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

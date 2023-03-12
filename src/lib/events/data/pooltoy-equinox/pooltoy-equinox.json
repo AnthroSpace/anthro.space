@@ -1,118 +1,118 @@
 {
-	"slug": "pooltoy-equinox",
-	"name": "POOLTOY EQUINOX",
-	"date": "06-25-2021",
-	"images": {
-		"hero": "hero.jpg",
-		"posters": ["poster.png", "set_times.png"],
-		"screenshots": []
-	},
-	"lineup": [
-		{
-			"alias": null,
-			"djs": ["37fc049b-28da-481e-8184-ce820ec42871"],
-			"set_urls": []
-		},
-		{
-			"alias": null,
-			"djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"],
-			"set_urls": [
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/gabaneon/gaba-neon-pool-toy-equinox"
-				},
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/gabaneon/gaba-neon-pool-toy-equinox/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["e06c9c74-2caf-4068-9ba2-5d055deb3b2b"],
-			"set_urls": [
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/whatthepup2/what-the-pup-pres-fennik-pooltoy-equinox"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["33415976-5027-4381-a280-128acdb44481"],
-			"set_urls": [
-				{
-					"name": "SoundCloud",
-					"url": "https://soundcloud.com/wiicore/twink-182-pooltoy-equinox-anthrospace"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["3552263e-1f0c-4247-8d5a-fa3a98a910e8"],
-			"set_urls": [{ "name": "SoundCloud", "url": "https://soundcloud.com/starmie/furry-fest" }]
-		},
-		{
-			"alias": null,
-			"djs": ["24bf6213-3fab-4a90-8bab-e462ad187cdf"],
-			"set_urls": []
-		},
-		{
-			"alias": null,
-			"djs": ["a7c0084b-d916-41e1-b1df-9894ad48f9ca"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/TibbTaicho/tibbz-pooltoysummer-6-25-2021/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["ae01a08e-eb1e-48a2-81c9-657d84f87bae"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/kevybevy/keva-pooltoy-equinox-2021/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["4e6369b6-deb3-43eb-810a-521646176a66"],
-			"set_urls": []
-		},
-		{
-			"alias": null,
-			"djs": ["d6e925dc-c8f5-4278-9067-b5d404d7d894"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "mixcloud.com/GalaxyMagus/magus-pooltoy-equinox/"
-				}
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"],
-			"set_urls": []
-		},
-		{
-			"alias": null,
-			"djs": ["fd291b12-9218-4298-8692-2662ebf024f2"],
-			"set_urls": [
-				{ "name": "SoundCloud", "url": "https://soundcloud.com/tarocco/pooltoy-equinox-2021" }
-			]
-		},
-		{
-			"alias": null,
-			"djs": ["55da5662-12db-4d37-bfe0-2fc9f9c8b44a"],
-			"set_urls": [
-				{
-					"name": "Mixcloud",
-					"url": "https://www.mixcloud.com/trndytrndy/trndytrndy-pooltoy-equinox-62521/"
-				}
-			]
-		}
-	]
+  "slug": "pooltoy-equinox",
+  "name": "POOLTOY EQUINOX",
+  "date": "06-25-2021",
+  "images": {
+    "hero": "hero.jpg",
+    "posters": ["poster.png", "set_times.png"],
+    "screenshots": []
+  },
+  "lineup": [
+    {
+      "alias": null,
+      "djs": ["37fc049b-28da-481e-8184-ce820ec42871"],
+      "set_urls": []
+    },
+    {
+      "alias": null,
+      "djs": ["f41414d4-db95-4532-b6b1-ef3fa7daa861"],
+      "set_urls": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/gabaneon/gaba-neon-pool-toy-equinox"
+        },
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/gabaneon/gaba-neon-pool-toy-equinox/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["e06c9c74-2caf-4068-9ba2-5d055deb3b2b"],
+      "set_urls": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/whatthepup2/what-the-pup-pres-fennik-pooltoy-equinox"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["33415976-5027-4381-a280-128acdb44481"],
+      "set_urls": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/wiicore/twink-182-pooltoy-equinox-anthrospace"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["3552263e-1f0c-4247-8d5a-fa3a98a910e8"],
+      "set_urls": [{ "name": "SoundCloud", "url": "https://soundcloud.com/starmie/furry-fest" }]
+    },
+    {
+      "alias": null,
+      "djs": ["24bf6213-3fab-4a90-8bab-e462ad187cdf"],
+      "set_urls": []
+    },
+    {
+      "alias": null,
+      "djs": ["a7c0084b-d916-41e1-b1df-9894ad48f9ca"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/TibbTaicho/tibbz-pooltoysummer-6-25-2021/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["ae01a08e-eb1e-48a2-81c9-657d84f87bae"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/kevybevy/keva-pooltoy-equinox-2021/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["4e6369b6-deb3-43eb-810a-521646176a66"],
+      "set_urls": []
+    },
+    {
+      "alias": null,
+      "djs": ["d6e925dc-c8f5-4278-9067-b5d404d7d894"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "mixcloud.com/GalaxyMagus/magus-pooltoy-equinox/"
+        }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["fd9e9edc-b0b3-48df-870c-345334f71451"],
+      "set_urls": []
+    },
+    {
+      "alias": null,
+      "djs": ["fd291b12-9218-4298-8692-2662ebf024f2"],
+      "set_urls": [
+        { "name": "SoundCloud", "url": "https://soundcloud.com/tarocco/pooltoy-equinox-2021" }
+      ]
+    },
+    {
+      "alias": null,
+      "djs": ["55da5662-12db-4d37-bfe0-2fc9f9c8b44a"],
+      "set_urls": [
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/trndytrndy/trndytrndy-pooltoy-equinox-62521/"
+        }
+      ]
+    }
+  ]
 }

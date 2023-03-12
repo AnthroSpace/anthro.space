@@ -3,26 +3,25 @@ $thumb-size: 5px;
 $scrollbar-height: 250px;
 
 #scrollbar {
-	position: fixed;
-    top: 50%;
-    right: $scrollbar-offset-x;
-    
-    & > #container {
-        & > #track {
-            position: absolute;
-            height: $scrollbar-height;
-            width: 1px;
-            background: $foreground-primary;
-            transform: translate(-50%, -50%);
-        }
-        
-        & > #thumb {
-            position: absolute;
-            width: $thumb-size;
-            height: 100px;
-            background: $foreground-primary;
-            transform: translate(-50%, -50%);
-        }
+  position: fixed;
+  top: 50%;
+  right: $scrollbar-offset-x;
+
+  & > #container {
+    & > #track {
+      position: absolute;
+      height: $scrollbar-height;
+      width: 1px;
+      background: $foreground-primary;
+      transform: translate(-50%, -50%);
     }
-	
+
+    & > #thumb {
+      position: absolute;
+      width: $thumb-size;
+      height: 100px;
+      background: $foreground-primary;
+      transform: translate(-50%, -50%);
+    }
+  }
 }

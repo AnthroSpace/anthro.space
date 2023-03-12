@@ -21,7 +21,7 @@
 		through the form of live vrchat events
 	</p>
 	{#if live}
-		<p>we are LIVE: <a data-sveltekit-prefetch href="/live">WATCH</a></p>
+		<p>we are LIVE: <a href="/live">WATCH</a></p>
 	{/if}
 	<span id="scrollarrow">↓</span>
 	<HeroBg src="/video/hero.mp4" dim isVideo />

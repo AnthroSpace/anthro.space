@@ -4,11 +4,11 @@
 // for information about these interfaces
 // and what to do when importing types
 declare global {
-	namespace App {
-		interface Member {
-			name: string;
-			title: string;
-			twitter: string | null;
-		}
-	}
+  namespace App {
+    interface Member {
+      name: string;
+      title: string;
+      twitter: string | null;
+    }
+  }
 }

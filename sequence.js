@@ -8,9 +8,9 @@ import { preprocess } from "svelte/compiler";
  * @returns {PreprocessorGroup[]}
  */
 export function sequence(preprocessors) {
-	return preprocessors.map((preprocessor) => ({
-		markup({ content, filename }) {
-			return preprocess(content, preprocessor, { filename });
-		}
-	}));
+  return preprocessors.map((preprocessor) => ({
+    markup({ content, filename }) {
+      return preprocess(content, preprocessor, { filename });
+    }
+  }));
 }
