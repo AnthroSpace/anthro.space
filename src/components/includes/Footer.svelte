@@ -29,6 +29,7 @@
 <style lang="scss">
   footer {
     background-color: $background-secondary;
+    margin-top: 30px;
   }
   #flex-container {
     display: flex;

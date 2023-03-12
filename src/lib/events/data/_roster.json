@@ -31,7 +31,7 @@
       { "name": "YouTube", "url": "https://www.youtube.com/@DeBisco" },
       {
         "name": "Spotify",
-        "url": "https://open.spotify.com/artist/2TPPLezwzP7WedFAme9Ws0?si=_g0jnLw2QKuhuU3xpEcOQw&nd=1"
+        "url": "https://open.spotify.com/artist/2TPPLezwzP7WedFAme9Ws0"
       },
       { "name": "Patreon", "url": "https://www.patreon.com/debisco" }
     ]
@@ -59,7 +59,7 @@
       { "name": "Twitter", "url": "https://twitter.com/whosWhatthePUP" },
       { "name": "Instagram", "url": "https://www.instagram.com/whoswhatthepup/" },
       { "name": "SoundCloud", "url": "https://soundcloud.com/whatthepup" },
-      { "name": "Spotify", "url": "https://open.spotify.com/artist/26SN2JGhSbePmoUwfWd57o"},
+      { "name": "Spotify", "url": "https://open.spotify.com/artist/26SN2JGhSbePmoUwfWd57o" },
       { "name": "YouTube", "url": "https://www.youtube.com/@whatthepup" },
       { "name": "Twitch", "url": "https://www.twitch.tv/whatthepup" }
     ]
@@ -102,7 +102,7 @@
       { "name": "Bandcamp", "url": "https://kevas.bandcamp.com/" },
       { "name": "YouTube", "url": "https://www.youtube.com/@keva3213" },
       { "name": "Apple Music", "url": "https://music.apple.com/us/artist/keva/1447713867" },
-      { "name": "Spotify", "url": "https://open.spotify.com/artist/0lqUNfSc4qdBj8xeTXmU2I?si=sy7On3kwSXC2-nwxvpSdHg" },
+      { "name": "Spotify", "url": "https://open.spotify.com/artist/0lqUNfSc4qdBj8xeTXmU2I" },
       { "name": "cohost", "url": "https://cohost.org/keva" },
       { "name": "Twitter", "url": "https://yiff.life/@keva" },
       { "name": "Mixcloud", "url": "https://www.mixcloud.com/kevybevy/" }
@@ -191,7 +191,7 @@
       { "name": "SoundCloud", "url": "https://soundcloud.com/tetramsic" },
       {
         "name": "Spotify",
-        "url": "https://open.spotify.com/artist/3BCEPJ0GHgaZzCD5cSTEjv?si=vQ0-SYq4S6m_oiauOsS4Ww"
+        "url": "https://open.spotify.com/artist/3BCEPJ0GHgaZzCD5cSTEjv"
       },
       { "name": "YouTube", "url": "https://www.youtube.com/@tetrafox" }
     ]
@@ -213,7 +213,7 @@
       { "name": "Twitter", "url": "https://twitter.com/trndytrndy" },
       { "name": "Mixcloud", "url": "https://www.mixcloud.com/trndytrndy/" },
       { "name": "SoundCloud", "url": "https://soundcloud.com/trndytrndy" },
-      { "name": "Spotify", "url": "https://open.spotify.com/artist/3DYTYYROw8SmsIAplPyysz?si=iQTfCX63QruTMhooijTFMw&nd=1" },
+      { "name": "Spotify", "url": "https://open.spotify.com/artist/3DYTYYROw8SmsIAplPyysz" },
       { "name": "Bandcamp", "url": "https://trndytrndy.bandcamp.com/" },
       { "name": "YouTube", "url": "https://www.youtube.com/@trndytrndy" }
     ]
@@ -242,7 +242,7 @@
       { "name": "Twitter", "url": "https://twitter.com/iamwolfmagic" },
       { "name": "SoundCloud", "url": "https://soundcloud.com/iamwolfmagic/" },
       { "name": "Bandcamp", "url": "https://wolfmagicmusic.bandcamp.com/track/pull-up" },
-      { "name": "Spotify", "url": "https://open.spotify.com/artist/2mGFteLEmIXA8buoi8Dx2H?si=Z-GARHA1R-OBmWerpwgfTQ" }
+      { "name": "Spotify", "url": "https://open.spotify.com/artist/2mGFteLEmIXA8buoi8Dx2H" }
     ]
   },
   {

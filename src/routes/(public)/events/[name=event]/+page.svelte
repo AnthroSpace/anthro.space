@@ -33,28 +33,30 @@
   <BigBg src={data.event.images.hero || data.event.images.posters[0]} dim />
 </section>
 
-<section id="event-lineup" class="content">
-  <h1>Lineup</h1>
-  {#each data.event.lineup as act}
-    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-    <div class="act">
-      <div
-        tabindex="0"
-        class="profile"
-        style="background-image:url('/img/profile-photos/{act.djs[0]}.jpg');"
-        on:click={() => openProfile(act.djs)}
-        on:keyup={(e) => e.key === "Enter" && openProfile(act.djs)} />
-      <div class="details">
-        <span class="name">{act.alias || getDjById(act.djs[0])?.name || ""}</span>
-        {#if act.set_urls[0]}
-          <span>Published set:</span>
-          {#each act.set_urls as set_url}
-            <a class="link set-url" href={set_url.url}>{set_url.name}</a>
-          {/each}
-        {/if}
+<section class="content">
+  <h2>Lineup</h2>
+  <div id="event-lineup">
+    {#each data.event.lineup as act}
+      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <div class="act">
+        <div
+          tabindex="0"
+          class="profile"
+          style="background-image:url('/img/profile-photos/{act.djs[0]}.jpg');"
+          on:click={() => openProfile(act.djs)}
+          on:keyup={(e) => e.key === "Enter" && openProfile(act.djs)} />
+        <div class="details">
+          <span class="name">{act.alias || getDjById(act.djs[0])?.name || ""}</span>
+          {#if act.set_urls[0]}
+            <span>Published set:</span>
+            {#each act.set_urls as set_url}
+              <a class="link set-url" href={set_url.url}>{set_url.name}</a>
+            {/each}
+          {/if}
+        </div>
       </div>
-    </div>
-  {/each}
+    {/each}
+  </div>
 </section>
 
 <style lang="scss">
