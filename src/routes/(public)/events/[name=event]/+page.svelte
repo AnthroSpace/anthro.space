@@ -90,6 +90,7 @@
       border: 1px solid $background-tertiary;
       display: flex;
       min-height: 100px;
+      word-break: break-word;
       transition: $default-transition;
       background-color: $background-secondary;
 
