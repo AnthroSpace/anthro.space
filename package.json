@@ -26,6 +26,7 @@
     "@sveltejs/kit": "1.11.0",
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "@typescript-eslint/parser": "5.54.1",
+    "@vitejs/plugin-basic-ssl": "1.0.1",
     "autoprefixer": "10.4.14",
     "cssnano": "5.1.15",
     "eslint": "8.36.0",
@@ -40,13 +41,12 @@
     "svelte-check": "3.1.2",
     "svelte-preprocess": "5.0.1",
     "svelte-preprocess-import-assets": "0.2.6",
-    "svelte-simple-modal": "^1.5.2",
+    "svelte-simple-modal": "1.5.2",
     "svelte2tsx": "0.6.7",
     "tslib": "2.5.0",
     "typescript": "4.9.5",
     "vite": "4.1.4",
-    "vite-imagetools": "4.0.18",
-    "vite-plugin-dynamic-import": "1.2.7"
+    "vite-imagetools": "4.0.18"
   },
   "dependencies": {
     "@fontsource/fira-mono": "4.5.10",

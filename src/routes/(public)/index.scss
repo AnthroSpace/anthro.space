@@ -1,0 +1,19 @@
+$page-width: 65vw;
+
+#scrollarrow {
+  position: absolute;
+  bottom: 20px;
+  font-size: 24pt;
+  color: $foreground-primary;
+  user-select: none;
+  animation: float 2s infinite ease-in-out alternate;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
