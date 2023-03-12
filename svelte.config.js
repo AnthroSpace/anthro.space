@@ -10,17 +10,17 @@ const config = {
     preprocess({
       postcss: true,
       scss: {
-        prependData: `@use "src/variables.scss" as *;`
-      }
-    })
+        prependData: `@use "src/variables.scss" as *;`,
+      },
+    }),
   ],
 
   kit: {
     adapter: adapter(),
     alias: {
-      $components: "src/components"
-    }
-  }
+      $components: "src/components",
+    },
+  },
 };
 
 export default config;

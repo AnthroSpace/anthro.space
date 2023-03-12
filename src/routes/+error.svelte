@@ -12,7 +12,7 @@
     noiseSize: 2.8,
     vignetting: 0.165,
     vignettingAlpha: 1,
-    vignettingBlur: 0.4
+    vignettingBlur: 0.4,
   });
 </script>
 
@@ -53,8 +53,8 @@
       noiseSize: 9.45,
       vignetting: 0.165,
       vignettingAlpha: 1,
-      vignettingBlur: 0.4
-    })
+      vignettingBlur: 0.4,
+    }),
   ]} />
 
 <style lang="scss">

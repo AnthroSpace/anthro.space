@@ -7,9 +7,9 @@
 
   import { getContext } from "svelte";
   import { getDjById } from "$lib/events/db";
-  
+
   export let data: PageData;
-  
+
   const { open } = getContext("simple-modal");
   const openProfile = (djIDs: string[]) => {
     const djs = roster.filter((dj) => djIDs.includes(dj.id));

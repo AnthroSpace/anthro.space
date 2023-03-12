@@ -3,7 +3,7 @@ import roster from "$lib/events/data/_roster.json";
 const readEvents = (): Event[] => {
   return Object.entries(
     import.meta.glob<Event>(["$lib/events/data/**/*.json", "!**/_*.json"], {
-      eager: true
+      eager: true,
     })
   ).map(([, event]) => event);
 };
@@ -18,7 +18,7 @@ export const listEvents = (): EventMetadata[] => {
     return {
       name: event.name,
       date: event.date,
-      slug: event.slug
+      slug: event.slug,
     };
   });
 };

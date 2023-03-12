@@ -11,16 +11,16 @@ export default defineConfig({
     imagetools(),
     sveltekit(),
     Icons({
-      compiler: "svelte"
+      compiler: "svelte",
     }),
-    basicSsl()
+    basicSsl(),
   ],
 
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "src/variables.scss" as *;`
-      }
-    }
-  }
+        additionalData: `@use "src/variables.scss" as *;`,
+      },
+    },
+  },
 });

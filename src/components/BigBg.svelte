@@ -14,8 +14,8 @@
         new KawaseBlurFilter(4, 20),
         new AdjustmentFilter({
           brightness: 0.44,
-          contrast: 1.2
-        })
+          contrast: 1.2,
+        }),
       ]
     : [];
 
@@ -23,7 +23,7 @@
     const app = new PIXI.Application({
       antialias: true,
       resizeTo: window,
-      view: document.getElementById("pixi-canvas") as HTMLCanvasElement
+      view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
     });
 
     let bg = PIXI.Sprite.from(
@@ -38,7 +38,7 @@
       position: true,
       rotation: true,
       uvs: true,
-      alpha: true
+      alpha: true,
     });
 
     app.stage.addChild(bg);
