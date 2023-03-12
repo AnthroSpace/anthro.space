@@ -2,8 +2,6 @@
   import type { Readable } from "svelte/store";
   import type { Member } from "$lib/stores";
 
-  import "./style.scss";
-
   export let header: string;
   export let members: Readable<Member[]>;
 </script>
@@ -17,3 +15,18 @@
       {member.title}</span>
   </div>
 {/each}
+
+<style lang="scss">
+  .member {
+    margin-bottom: 10px;
+    & > #name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    & > span {
+      display: block;
+      word-break: break-word;
+    }
+  }
+</style>

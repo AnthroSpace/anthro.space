@@ -1,7 +1,19 @@
 <script lang="ts">
+  import "./(public)/+layout.svelte";
   import { page } from "$app/stores";
   import { dev } from "$app/environment";
-  import HeroBg from "$components/hero-bg/hero-bg.svelte";
+  import { CRTFilter } from "pixi-filters";
+  import BigBg from "$components/BigBg.svelte";
+  const crrr = new CRTFilter({
+    curvature: 6.72,
+    lineWidth: 5,
+    lineContrast: 0.5,
+    noise: 0.67,
+    noiseSize: 2.8,
+    vignetting: 0.165,
+    vignettingAlpha: 1,
+    vignettingBlur: 0.4
+  });
 </script>
 
 <section>
@@ -29,7 +41,21 @@
   <a href="/" class="btn">🡐 back to home</a>
 </section>
 
-<HeroBg src="/video/noise.mp4" isVideo />
+<BigBg
+  src="/video/noise.mp4"
+  isVideo
+  filters={[
+    new CRTFilter({
+      curvature: 6.72,
+      lineWidth: 5,
+      lineContrast: 0.5,
+      noise: 0.67,
+      noiseSize: 9.45,
+      vignetting: 0.165,
+      vignettingAlpha: 1,
+      vignettingBlur: 0.4
+    })
+  ]} />
 
 <style lang="scss">
   section {

@@ -3,8 +3,6 @@
   import { page } from "$app/stores";
 
   const twitchParent = dev ? "localhost" : "anthro.space";
-
-  import "./style.scss";
 </script>
 
 <section id="live">
@@ -25,3 +23,48 @@
       frameborder="0" />
   </div>
 </section>
+
+<style lang="scss">
+  section#live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section > #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    width: 50vw;
+    height: 37vw;
+    & > p,
+    h1 {
+      color: white;
+    }
+    & > #stream {
+      background: black;
+      aspect-ratio: 16 / 9;
+      height: 100%;
+    }
+    & > #chat {
+      height: 100%;
+    }
+    & > #live-footer {
+      grid-column: span 2;
+    }
+  }
+
+  #instances {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    & > a {
+      border-radius: 5px;
+      border: 1px solid white;
+      background: teal;
+      padding: 13px;
+    }
+  }
+</style>

@@ -1,38 +1,26 @@
 <script lang="ts">
   import type { PageData } from "./$types";
 
-  import ProfileCard from "$components/profile-card/ProfileCard.svelte";
-  import HeroBg from "$components/hero-bg/hero-bg.svelte";
+  import ProfileCard from "$components/ProfileCard.svelte";
+  import BigBg from "$components/BigBg.svelte";
   import roster from "$lib/events/data/_roster.json";
 
-  import { writable } from "svelte/store";
-  import Modal, { bind } from "svelte-simple-modal";
+  import { getContext } from "svelte";
   import { getDjById } from "$lib/events/db";
-
-  import "./style.scss";
-
+  
   export let data: PageData;
-
-  const modal = writable<ProfileCard | null>(null);
+  
+  const { open } = getContext("simple-modal");
   const openProfile = (djIDs: string[]) => {
     const djs = roster.filter((dj) => djIDs.includes(dj.id));
 
-    modal.set(bind(ProfileCard, { djs }));
+    open(ProfileCard, { djs });
   };
 </script>
 
 <svelte:head>
   <title>AnthroSpace | {data.event.name}</title>
 </svelte:head>
-
-<Modal
-  show={$modal}
-  unstyled={true}
-  classBg="modalBg"
-  classWindowWrap="modalWrap"
-  classWindow="modalWindow"
-  classContent="modalContent"
-  closeButton={false} />
 
 <section id="landing">
   <h1>{data.event.name}</h1>
@@ -42,7 +30,7 @@
       <div class="poster" style="background-image: url({poster});" />
     {/each}
   </div>
-  <HeroBg src={data.event.images.hero || data.event.images.posters[0]} dim />
+  <BigBg src={data.event.images.hero || data.event.images.posters[0]} dim />
 </section>
 
 <section id="event-lineup" class="content">
@@ -68,3 +56,73 @@
     </div>
   {/each}
 </section>
+
+<style lang="scss">
+  #posters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    min-height: 60vh;
+    min-width: 60vw;
+    gap: 10px;
+
+    & > .poster {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #posters {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #event-lineup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+
+    & > .act {
+      border: 1px solid $background-tertiary;
+      display: flex;
+      min-height: 100px;
+      transition: $default-transition;
+      background-color: $background-secondary;
+
+      & > .profile {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-width: 100px;
+        height: 100%;
+        transition: $default-transition;
+        cursor: pointer;
+        &:hover {
+          filter: grayscale(0%);
+          min-width: 110px;
+        }
+      }
+
+      & > .details {
+        padding: 10px;
+
+        & > span {
+          &.name {
+            font-size: 1.5em;
+            line-height: 1.5em;
+          }
+          display: block;
+        }
+
+        & > a.link {
+          margin-right: 5px;
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+</style>

@@ -27,7 +27,8 @@ span {
 }
 
 section {
-  width: 85vw;
+  width: $page-width;
+  max-width: $max-page-width;
 }
 
 main {
@@ -69,12 +70,6 @@ a {
       background-color: $foreground-secondary;
     }
   }
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 #landing {

@@ -8,20 +8,22 @@ export const load: PageServerLoad = async ({ params }) => {
   // Object.entries(event.images).forEach(([key, value]) => {
   // 	if (!Array.isArray(value)) {
   // 		if (!value) return;
-  // 		import(`../../../lib/events/data/${event.slug}/img/${value.replace(".png", "")}.png?webp`).then(
-  // 			(module) => {
-  // 				console.log(module.default);
-  // 			}
-  // 		);
-  // 		return;
-  // 	}
-  // 	event.images[key] = value.forEach((image) => {
-  // 		import(`../../../lib/events/data/${event.slug}/img/${image}?webp`).then(
-  // 			({ default: img }) => {
-  // 				image = img;
-  // 			}
-  // 		);
-  // 	});
+  		// import(`../../../lib/events/data/${event.slug}/img/${value.replace(".png", "")}.png?webp`).then(
+  		// 	(module) => {
+  		// 		console.log(module.default);
+  		// 	}
+  		// );
+    //   console.log(optimizeImage(`/img/events/${event.slug}/${value}`));
+    //   console.log("bro");
+  	// 	return;
+  	// }
+  	// event.images[key] = value.forEach((image) => {
+  	// 	import(`../../../lib/events/data/${event.slug}/img/${image}?webp`).then(
+  	// 		({ default: img }) => {
+  	// 			image = img;
+  	// 		}
+  	// 	);
+  	// });
   // });
 
   event.images.posters = event.images.posters.map(

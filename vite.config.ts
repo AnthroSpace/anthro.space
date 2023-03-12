@@ -1,11 +1,20 @@
 import { defineConfig } from "vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import basicSsl from "@vitejs/plugin-basic-ssl";
+import { imagetools } from "vite-imagetools";
+import Icons from "unplugin-icons/vite";
 
 export default defineConfig({
   server: { https: true },
 
-  plugins: [sveltekit(), basicSsl()],
+  plugins: [
+    imagetools(),
+    sveltekit(),
+    Icons({
+      compiler: "svelte"
+    }),
+    basicSsl()
+  ],
 
   css: {
     preprocessorOptions: {

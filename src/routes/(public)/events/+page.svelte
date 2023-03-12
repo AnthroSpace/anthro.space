@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   export let data: PageData;
-  import "./style.scss";
 </script>
 
 <svelte:head>
@@ -20,3 +19,27 @@
     {/each}
   </div>
 </section>
+
+<style lang="scss">
+  #event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    & > div.event {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 15px;
+      & > a.event-link {
+        font-size: 1.25em;
+      }
+
+      & > span.event-date {
+        font-size: 0.8em;
+        color: $foreground-secondary;
+      }
+    }
+  }
+</style>

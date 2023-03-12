@@ -1,17 +1,19 @@
 import adapter from "@sveltejs/adapter-vercel";
 import preprocess from "svelte-preprocess";
 
-import { sequence } from "./sequence.js";
+import { vitePreprocess } from "@sveltejs/kit/vite";
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: sequence([
+  preprocess: [
+    vitePreprocess(),
     preprocess({
+      postcss: true,
       scss: {
         prependData: `@use "src/variables.scss" as *;`
       }
-      // postcss: true
     })
-  ]),
+  ],
 
   kit: {
     adapter: adapter(),

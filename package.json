@@ -1,16 +1,11 @@
 {
   "name": "anthro.space",
-  "author": "AnthroSpace",
   "version": "0.0.1",
   "license": "UNLICENSED",
   "type": "module",
   "private": true,
   "engines": {
     "node": ">=18.13.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnthroSpace/anthro.space.git"
   },
   "scripts": {
     "dev": "vite dev --host",
@@ -22,6 +17,9 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
+    "@fontsource/fira-mono": "4.5.10",
+    "@fontsource/varela": "4.5.9",
+    "@iconify/json": "2.2.33",
     "@sveltejs/adapter-vercel": "^2.3.1",
     "@sveltejs/kit": "1.11.0",
     "@typescript-eslint/eslint-plugin": "5.54.1",
@@ -32,6 +30,9 @@
     "eslint": "8.36.0",
     "eslint-config-prettier": "8.7.0",
     "eslint-plugin-svelte3": "4.0.0",
+    "lucide-svelte": "0.125.0",
+    "pixi-filters": "5.2.0",
+    "pixi.js": "7.1.4",
     "postcss": "8.4.21",
     "postcss-load-config": "4.0.1",
     "prettier": "2.8.4",
@@ -40,17 +41,12 @@
     "svelte": "3.56.0",
     "svelte-check": "3.1.2",
     "svelte-preprocess": "5.0.1",
-    "svelte-preprocess-import-assets": "0.2.6",
     "svelte-simple-modal": "1.5.2",
     "svelte2tsx": "0.6.7",
     "tslib": "2.5.0",
     "typescript": "4.9.5",
+    "unplugin-icons": "0.15.3",
     "vite": "4.1.4",
     "vite-imagetools": "4.0.18"
-  },
-  "dependencies": {
-    "@fontsource/fira-mono": "4.5.10",
-    "@fontsource/material-icons": "4.5.4",
-    "@fontsource/varela": "4.5.9"
   }
 }
