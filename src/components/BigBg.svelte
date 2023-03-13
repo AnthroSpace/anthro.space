@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import * as PIXI from "pixi.js";
-  import "$lib/pixi-set-size"; // neat :)
-  import { CRTFilter, KawaseBlurFilter, AdjustmentFilter } from "pixi-filters";
+  import "$lib/pixi-setsize"; // neat :)
+  import { KawaseBlurFilter, AdjustmentFilter } from "pixi-filters";
 
   export let src: string;
   export let dim = false;

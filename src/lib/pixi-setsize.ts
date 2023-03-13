@@ -1,7 +1,7 @@
 import { Sprite, Point } from "pixi.js";
 
 declare module "pixi.js" {
-  export interface Sprite {
+  interface Sprite {
     setSize(width: number, height: number, type: "cover" | "contain"): void;
   }
 }

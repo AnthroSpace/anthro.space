@@ -7,10 +7,10 @@ import { preprocess } from "svelte/compiler";
  * @param {PreprocessorGroup[]} preprocessors
  * @returns {PreprocessorGroup[]}
  */
-export function sequence(preprocessors) {
+export const sequence = (preprocessors) => {
   return preprocessors.map((preprocessor) => ({
     markup({ content, filename }) {
       return preprocess(content, preprocessor, { filename });
     },
   }));
-}
+};

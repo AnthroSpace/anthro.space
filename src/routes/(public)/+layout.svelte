@@ -4,30 +4,13 @@
   import Scrollbar from "$components/includes/Scrollbar.svelte";
   import Modal from "svelte-simple-modal";
 
-  import { browser, dev } from "$app/environment";
-  import { page } from "$app/stores";
-  import { onMount } from "svelte";
-
   import "../../app.scss";
   import "../../modal.scss";
-
-  onMount(async () => {
-    if (!browser) return;
-
-    const { inject } = await import("@vercel/analytics");
-    inject({ mode: dev ? "development" : "production" });
-
-    let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
-    if (!analyticsId) return;
-
-    const { webVitals } = await import("$lib/vitals");
-    webVitals({
-      path: $page.url.pathname,
-      params: $page.params,
-      analyticsId,
-    });
-  });
 </script>
+
+{#await import("$components/includes/Analytics.svelte") then module}
+  <svelte:component this={module.default} />
+{/await}
 
 <Modal
   unstyled={true}
