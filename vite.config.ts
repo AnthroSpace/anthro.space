@@ -4,6 +4,10 @@ import basicSsl from "@vitejs/plugin-basic-ssl";
 import { imagetools } from "vite-imagetools";
 import Icons from "unplugin-icons/vite";
 
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
 export default defineConfig({
   server: { https: true },
 
@@ -26,5 +30,13 @@ export default defineConfig({
 
   define: {
     "import.meta.env.VERCEL_ANALYTICS_ID": JSON.stringify(process.env.VERCEL_ANALYTICS_ID),
+    "import.meta.env.NEXT_PUBLIC_SUPABASE_URL": JSON.stringify(
+      process.env.NEXT_PUBLIC_SUPABASE_URL
+    ),
+    "import.meta.env.NEXT_PUBLIC_SUPABASE_ANON_KEY": JSON.stringify(
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+    ),
+    // danger uwu should not need this
+    // "import.meta.env.SUPABASE_SERVICE_ROLE_KEY": JSON.stringify(process.env.SUPABASE_SERVICE_ROLE_KEY),
   },
 });

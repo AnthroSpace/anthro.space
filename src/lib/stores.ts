@@ -1,10 +1,4 @@
-import { readable } from "svelte/store";
-
-export type Member = {
-  name: string;
-  title: string;
-  twitter: string;
-};
+import { readable, writable, type Writable } from "svelte/store";
 
 const members: Member[] = [
   {
@@ -26,3 +20,5 @@ const members: Member[] = [
 ];
 
 export const team = readable(members);
+
+export const validEvents: Writable<string[]> = writable([]);

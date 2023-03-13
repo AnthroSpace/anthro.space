@@ -5,16 +5,18 @@
 // for information about these interfaces
 // and what to do when importing types
 
+import type { SupabaseClient } from "@supabase/supabase-js";
+
 declare global {
   namespace App {
     interface Error {
       message: string;
       stack: string;
     }
-    interface Member {
-      name: string;
-      title: string;
-      twitter: string | null;
+    interface Locals {
+      supabase: SupabaseClient;
     }
+    // interface PageData {}
+    // interface Platform {}
   }
 }

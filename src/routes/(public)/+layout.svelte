@@ -6,15 +6,18 @@
 
   import { browser, dev } from "$app/environment";
   import { page } from "$app/stores";
-  import { inject } from "@vercel/analytics";
+  import { onMount } from "svelte";
 
   import "../../app.scss";
   import "../../modal.scss";
 
-  (async () => {
-    let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
+  onMount(async () => {
+    if (!browser) return;
 
-    if (browser) inject({ mode: dev ? "development" : "production" });
+    const { inject } = await import("@vercel/analytics");
+    inject({ mode: dev ? "development" : "production" });
+
+    let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
     if (!analyticsId) return;
 
     const { webVitals } = await import("$lib/vitals");
@@ -23,7 +26,7 @@
       params: $page.params,
       analyticsId,
     });
-  })();
+  });
 </script>
 
 <Modal
@@ -46,11 +49,11 @@
 
 <style lang="scss">
   body {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 
     &::-webkit-scrollbar {
-      background: transparent; /* Chrome/Safari/Webkit */
+      background: transparent;
       width: 0px;
     }
   }

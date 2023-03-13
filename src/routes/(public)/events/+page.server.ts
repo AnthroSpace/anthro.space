@@ -1,10 +1,18 @@
 import type { PageServerLoad } from "./$types";
-import { listEvents } from "$lib/events/db";
 
-export const load: PageServerLoad = async ({ url }) => {
-  const events = listEvents();
+export const load: PageServerLoad = (async ({ url, locals }) => {
+  const { data: events, error } = await locals.supabase.from("events").select("*");
+  if (error) return { status: 500, error: error.message };
 
-  events.forEach((event) => (event.path = `${url.pathname}/${event.slug}`));
+  const transformedEvents = events
+    .map((event) => {
+      return {
+        name: event.name,
+        date: event.date, // maybe do something with date
+        path: `${url.pathname}/${event.slug}`,
+      };
+    })
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-  return { events };
-};
+  return { events: transformedEvents };
+}) satisfies PageServerLoad;
