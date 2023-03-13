@@ -4,21 +4,21 @@ specifiers:
   '@fontsource/fira-mono': 4.5.10
   '@fontsource/varela': 4.5.9
   '@iconify/json': 2.2.34
-  '@supabase/supabase-js': ^2.10.0
-  '@sveltejs/adapter-vercel': ^2.3.1
+  '@supabase/supabase-js': 2.10.0
+  '@sveltejs/adapter-vercel': 2.3.1
   '@sveltejs/kit': 1.11.0
   '@typescript-eslint/eslint-plugin': 5.54.1
   '@typescript-eslint/parser': 5.54.1
-  '@vercel/analytics': ^0.1.11
+  '@vercel/analytics': 0.1.11
   '@vitejs/plugin-basic-ssl': 1.0.1
   autoprefixer: 10.4.14
   cssnano: 5.1.15
-  dotenv: ^16.0.3
+  dotenv: 16.0.3
   eslint: 8.36.0
   eslint-config-prettier: 8.7.0
   eslint-plugin-svelte3: 4.0.0
   lucide-svelte: 0.125.0
-  mongoose: ^7.0.1
+  mongoose: 7.0.1
   pixi-filters: 5.2.0
   pixi.js: 7.1.4
   postcss: 8.4.21
@@ -36,7 +36,7 @@ specifiers:
   unplugin-icons: 0.15.3
   vite: 4.1.4
   vite-imagetools: 4.0.18
-  web-vitals: ^3.3.0
+  web-vitals: 3.3.0
 
 dependencies:
   '@supabase/supabase-js': 2.10.0
