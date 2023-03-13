@@ -1,6 +1,13 @@
 on:
-  - push
-  - pull_request
+  push:
+    paths:
+      - "src/**"
+      - "static/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "svelte.config.js"
+      - "vite.config.ts"
+  workflow_dispatch:
 
 jobs:
   build:
