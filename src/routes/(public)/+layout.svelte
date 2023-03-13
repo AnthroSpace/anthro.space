@@ -4,8 +4,24 @@
   import Scrollbar from "$components/includes/Scrollbar.svelte";
   import Modal from "svelte-simple-modal";
 
+  import { browser } from "$app/environment";
+  import { page } from "$app/stores";
+
   import "../../app.scss";
   import "../../modal.scss";
+
+  (async () => {
+    let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
+
+    if (browser && analyticsId) {
+      const { webVitals } = await import("$lib/vitals");
+      webVitals({
+        path: $page.url.pathname,
+        params: $page.params,
+        analyticsId,
+      });
+    }
+  })();
 </script>
 
 <Modal
