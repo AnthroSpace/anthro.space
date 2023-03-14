@@ -30,7 +30,7 @@ specifiers:
   svelte-check: 3.1.4
   svelte-preprocess: 5.0.1
   svelte-simple-modal: 1.5.2
-  svelte2tsx: 0.6.8
+  svelte2tsx: 0.6.9
   tslib: 2.5.0
   typescript: 4.9.5
   unplugin-icons: 0.15.3
@@ -70,7 +70,7 @@ devDependencies:
   svelte-check: 3.1.4_cywm432h5wildlvspqka3k5vpm
   svelte-preprocess: 5.0.1_jaggnctj4msbyugbagfslffsiq
   svelte-simple-modal: 1.5.2_svelte@3.56.0
-  svelte2tsx: 0.6.8_rx3ssngbibhj4vpczagsdyy47u
+  svelte2tsx: 0.6.9_rx3ssngbibhj4vpczagsdyy47u
   tslib: 2.5.0
   typescript: 4.9.5
   unplugin-icons: 0.15.3
@@ -3680,8 +3680,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.6.8_rx3ssngbibhj4vpczagsdyy47u:
-    resolution: {integrity: sha512-8GNd2IAG2GUvrMHfTee3Des7lZE3RZB5Tf2CTTiA8b1+K24KEvmmJcphqf5YQ4/1Y/VLHx/SvJOOjgW929rPDg==}
+  /svelte2tsx/0.6.9_rx3ssngbibhj4vpczagsdyy47u:
+    resolution: {integrity: sha512-yQT83cQMztgRTkJPEUYgrHYnJA8WmFC1TqOGabZ2DgSlmuqZK1qI6uxCFF1IEQRxgvkVPvYR5+H0W51ujSia2Q==}
     peerDependencies:
       svelte: ^3.55
       typescript: ^4.9.4
