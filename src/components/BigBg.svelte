@@ -2,26 +2,15 @@
   import { onMount } from "svelte";
   import { dev } from "$app/environment";
   import * as PIXI from "pixi.js";
-  import "$lib/pixi-setsize"; // neat :)
   import { KawaseBlurFilter, AdjustmentFilter } from "pixi-filters";
+  import "$lib/pixi-setsize"; // neat :)
 
   export let src: string;
   export let dim = false;
   export let isVideo = false;
   export let filters: PIXI.Filter[] = [];
 
-  const baseFilters: PIXI.Filter[] = dim
-    ? [
-        new KawaseBlurFilter(4, 20),
-        new AdjustmentFilter({
-          brightness: 0.44,
-          contrast: 1.2,
-        }),
-      ]
-    : [];
-
   onMount(() => {
-    if (!document) return; // dude i have no idea what's going on
     const app = new PIXI.Application({
       antialias: true,
       resizeTo: window,
@@ -31,22 +20,28 @@
     if (dev) globalThis.__PIXI_APP__ = app;
 
     let elapsed = 0.0;
-
     app.ticker.add((delta) => (elapsed += delta));
 
-    let bg = PIXI.Sprite.from(
+    const bg = PIXI.Sprite.from(
       isVideo ? (document.getElementById("pixi-video") as HTMLVideoElement) : src
     );
 
-    bg.filters = baseFilters.concat(filters);
+    if (dim) {
+      // for some reason instantiating the filters outside of
+      // onMount causes the first page load to result in a 500
+      filters.push(
+        new KawaseBlurFilter(4, 20),
+        new AdjustmentFilter({
+          brightness: 0.44,
+          contrast: 1.2,
+        })
+      );
+    }
 
+    bg.filters = filters;
+
+    app.ticker.add(() => bg.setSize(app.renderer.width, app.renderer.height, "cover"));
     app.stage.addChild(bg);
-
-    app.ticker.add(() => {
-      // bg.filters.forEach((f) => (f.time = elapsed));
-
-      bg.setSize(app.renderer.width, app.renderer.height, "cover");
-    });
   });
 </script>
 
