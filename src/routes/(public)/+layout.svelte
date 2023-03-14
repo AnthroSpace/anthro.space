@@ -2,6 +2,8 @@
   import Header from "$components/includes/Header.svelte";
   import Footer from "$components/includes/Footer.svelte";
   import Scrollbar from "$components/includes/Scrollbar.svelte";
+
+  import { ProgressBar } from "@prgm/sveltekit-progress-bar";
   import Modal from "svelte-simple-modal";
 
   import "../../app.scss";
@@ -11,6 +13,8 @@
 {#await import("$components/includes/Analytics.svelte") then module}
   <svelte:component this={module.default} />
 {/await}
+
+<ProgressBar color="#a979f2" zIndex={1000} />
 
 <Modal
   unstyled={true}
@@ -24,20 +28,8 @@
 
   <main>
     <slot />
-    <Scrollbar />
   </main>
 
+  <Scrollbar />
   <Footer />
 </Modal>
-
-<style lang="scss">
-  body {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-
-    &::-webkit-scrollbar {
-      background: transparent;
-      width: 0px;
-    }
-  }
-</style>
