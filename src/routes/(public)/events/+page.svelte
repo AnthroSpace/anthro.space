@@ -71,7 +71,7 @@
   }
 
   @media screen and (max-width: $mobile-threshold) {
-    .fullscreen {
+    .fullscreen > div {
       flex-direction: column;
       flex-flow: column-reverse;
     }
