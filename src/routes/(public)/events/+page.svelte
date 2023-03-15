@@ -12,24 +12,11 @@
 
 <section class="fullscreen">
   <div>
-    <h1>Past Events</h1>
-
-    <div class="event-list">
-      {#each past as event}
-        <div class="event">
-          <a href={event.path} class="event-link">{event.name}</a>
-          <span class="event-date">{event.date}</span>
-        </div>
-      {/each}
-    </div>
-  </div>
-
-  {#if upcoming.length > 0}
     <div>
-      <h1>Upcoming</h1>
+      <h1>Past Events</h1>
 
       <div class="event-list">
-        {#each upcoming as event}
+        {#each past as event}
           <div class="event">
             <a href={event.path} class="event-link">{event.name}</a>
             <span class="event-date">{event.date}</span>
@@ -37,11 +24,26 @@
         {/each}
       </div>
     </div>
-  {/if}
+
+    {#if upcoming.length > 0}
+      <div>
+        <h1>Upcoming</h1>
+
+        <div class="event-list">
+          {#each upcoming as event}
+            <div class="event">
+              <a href={event.path} class="event-link">{event.name}</a>
+              <span class="event-date">{event.date}</span>
+            </div>
+          {/each}
+        </div>
+      </div>
+    {/if}
+  </div>
 </section>
 
 <style lang="scss">
-  .fullscreen {
+  .fullscreen > div {
     display: flex;
     flex-direction: row;
     gap: 50px;
