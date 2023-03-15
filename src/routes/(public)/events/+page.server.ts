@@ -7,9 +7,10 @@ export const load: PageServerLoad = (async ({ url, locals }) => {
     .select("name, date, slug")
     .order("date", { ascending: false });
 
-  if (err) throw error(502, { message: "Could not connect to database" });
+  if (err) throw error(502, { message: err.message });
 
   return {
+    subtitle: "Events",
     events: eventsMetadata.map((e) => ({
       name: e.name,
       date: e.date,

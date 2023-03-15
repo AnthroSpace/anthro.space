@@ -16,7 +16,7 @@
       resizeTo: window,
       view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
       hello: dev,
-      autoStart: true
+      autoStart: true,
     });
 
     PIXI.settings.FILTER_RESOLUTION = PIXI.Filter.defaultResolution;

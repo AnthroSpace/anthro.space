@@ -6,6 +6,7 @@
 // and what to do when importing types
 
 import type { SupabaseClient } from "@supabase/supabase-js";
+import type { Database } from "$lib/supabase/types";
 import type { Application } from "pixi.js";
 
 declare global {
@@ -17,9 +18,19 @@ declare global {
       // stack: string;
     }
     interface Locals {
-      supabase: SupabaseClient;
+      supabase: SupabaseClient<Database>;
     }
-    // interface PageData {}
+    interface PageData {
+      subtitle?: string;
+      events?: {
+        name: string;
+        date: string;
+        path: string;
+      };
+    }
+    interface LayoutData {
+      title: string;
+    }
     // interface Platform {}
   }
 }

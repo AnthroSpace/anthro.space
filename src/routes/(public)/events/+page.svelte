@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>AnthroSpace | Events</title>
+  <title>{data.title} | {data.subtitle}</title>
 </svelte:head>
 
 <section class="fullscreen">

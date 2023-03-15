@@ -1,18 +1,14 @@
 import { defineConfig } from "vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import basicSsl from "@vitejs/plugin-basic-ssl";
-import { imagetools } from "vite-imagetools";
 import Icons from "unplugin-icons/vite";
 
-import * as dotenv from "dotenv";
-
-dotenv.config();
+import "dotenv/config";
 
 export default defineConfig({
   server: { https: true },
 
   plugins: [
-    imagetools(),
     sveltekit(),
     Icons({
       compiler: "svelte",

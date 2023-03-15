@@ -2,7 +2,7 @@ import type { PageServerLoad } from "./$types";
 import type { Event } from "$lib/events/db";
 import { getEvent } from "$lib/events/db";
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageServerLoad = (async ({ params }) => {
   const event: Event = JSON.parse(JSON.stringify(getEvent(params.name))); // clone event
 
   // Object.entries(event.images).forEach(([key, value]) => {
@@ -31,6 +31,7 @@ export const load: PageServerLoad = async ({ params }) => {
   );
   if (event.images.hero) event.images.hero = "/img/events/" + event.slug + "/" + event.images.hero;
   return {
+    subtitle: event.name,
     event,
   };
-};
+}) satisfies PageServerLoad;
