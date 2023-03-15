@@ -13,8 +13,7 @@
   onMount(() => {
     const app = new PIXI.Application({
       antialias: true,
-      height: window.innerHeight,
-      width: window.innerWidth,
+      resizeTo: window,
       view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
       hello: dev,
       autoStart: true
