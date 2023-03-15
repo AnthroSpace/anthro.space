@@ -2,8 +2,8 @@
   import type { PageData } from "./$types";
   export let data: PageData;
 
-  let upcoming = data.events.filter((event) => new Date(event.date) > new Date());
-  let past = data.events.filter((event) => new Date(event.date) < new Date());
+  const upcoming = data.events.filter((event) => new Date(event.date) > new Date());
+  const past = data.events.filter((event) => new Date(event.date) < new Date());
 </script>
 
 <svelte:head>
@@ -23,12 +23,13 @@
       {/each}
     </div>
   </div>
-  {#if upcoming.length == 0}
+
+  {#if upcoming.length > 0}
     <div>
       <h1>Upcoming</h1>
 
       <div class="event-list">
-        {#each past as event}
+        {#each upcoming as event}
           <div class="event">
             <a href={event.path} class="event-link">{event.name}</a>
             <span class="event-date">{event.date}</span>
