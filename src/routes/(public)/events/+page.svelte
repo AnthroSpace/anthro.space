@@ -1,31 +1,55 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   export let data: PageData;
+
+  let upcoming = data.events.filter((event) => new Date(event.date) > new Date());
+  let past = data.events.filter((event) => new Date(event.date) < new Date());
 </script>
 
 <svelte:head>
-  <title>AnthroSpace | Past Events</title>
+  <title>AnthroSpace | Events</title>
 </svelte:head>
 
-<section id="landing">
-  <h1>Past Events</h1>
+<section class="fullscreen">
+  <div>
+    <h1>Past Events</h1>
 
-  <div id="event-list">
-    {#each data.events as event}
-      <div class="event">
-        <a href={event.path} class="event-link">{event.name}</a>
-        <span class="event-date">{event.date}</span>
-      </div>
-    {/each}
+    <div class="event-list">
+      {#each past as event}
+        <div class="event">
+          <a href={event.path} class="event-link">{event.name}</a>
+          <span class="event-date">{event.date}</span>
+        </div>
+      {/each}
+    </div>
   </div>
+  {#if upcoming.length == 0}
+    <div>
+      <h1>Upcoming</h1>
+
+      <div class="event-list">
+        {#each past as event}
+          <div class="event">
+            <a href={event.path} class="event-link">{event.name}</a>
+            <span class="event-date">{event.date}</span>
+          </div>
+        {/each}
+      </div>
+    </div>
+  {/if}
 </section>
 
 <style lang="scss">
-  #event-list {
+  .fullscreen {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .event-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    text-align: left;
+
     & > div.event {
       display: flex;
       flex-direction: row;
@@ -40,6 +64,13 @@
         font-size: 0.8em;
         color: $foreground-secondary;
       }
+    }
+  }
+
+  @media screen and (max-width: $mobile-threshold) {
+    .fullscreen {
+      flex-direction: column;
+      flex-flow: column-reverse;
     }
   }
 </style>

@@ -12,26 +12,24 @@
 
   const toggle = () => (isOpen = !isOpen);
 
-  const handleKey = (e: KeyboardEvent) => {
-    if (e.key === "Escape") isOpen = false;
-  };
+  const handleKey = (e: KeyboardEvent) => (isOpen = e.key === "Escape");
 </script>
 
 <svelte:window bind:scrollY bind:innerWidth on:keyup={handleKey} />
 
 <header class:scrolled={scrollY > 0}>
-  <span id="gradient" />
+  <span class="gradient" />
   <nav>
-    <a id="home-link" href="/"><span id="logo" />AnthroSpace</a>
+    <a class="home-link with-icon" href="/"><span class="logo" />AnthroSpace</a>
 
     {#if innerWidth < mobileThreshold}
-      <button id="menu-toggle" on:click={toggle} class:open={isOpen} aria-hidden="true"
+      <button class="menu-toggle" on:click={toggle} class:open={isOpen} aria-hidden="true"
         ><MaterialSymbolsMenuRounded font-size="14pt" /></button>
     {/if}
 
     <!-- collapsible -->
-    <div id="nav-links" class:open={isOpen}>
-      <a href="/events">PAST EVENTS</a>
+    <div class="nav-links" class:open={isOpen}>
+      <a href="/events">EVENTS</a>
       <a href="/twitch">TWITCH</a>
       <a href="/twitter">TWITTER</a>
       <a href="/discord">DISCORD</a>
@@ -60,20 +58,16 @@
       margin: 0 auto;
       transition: $default-transition;
 
-      > #nav-links {
+      > .nav-links {
         display: flex;
         gap: 10px;
         align-items: center;
       }
 
-      > #home-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      > .home-link {
         gap: 10px;
-        transition: $default-transition;
 
-        > #logo {
+        > .logo {
           width: 25px;
           height: 25px;
           background-color: $foreground-primary;
@@ -87,7 +81,7 @@
     &.scrolled {
       height: 40px;
       > nav {
-        > #home-link > #logo {
+        > .home-link > .logo {
           background-color: $background-primary;
         }
         & a {
@@ -97,14 +91,14 @@
           }
         }
       }
-      > #gradient::after {
+      > .gradient::after {
         opacity: 1;
       }
     }
   }
 
-  #gradient,
-  #gradient::after {
+  .gradient,
+  .gradient::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,13 +109,13 @@
     user-select: none;
   }
 
-  #gradient {
+  .gradient {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
     z-index: -2;
     opacity: 1;
   }
 
-  #gradient::after {
+  .gradient::after {
     content: "";
     background: $foreground-primary;
     z-index: -1;
@@ -129,27 +123,27 @@
   }
 
   // mobile displays
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: $mobile-threshold) {
     header {
       font-size: 0.9em;
 
       &.scrolled {
-        > nav > #home-link > #logo {
+        > nav > .home-link > .logo {
           width: 20px;
           height: 20px;
         }
-        > #menu-toggle {
+        > .menu-toggle {
           color: $background-primary;
         }
       }
       > nav {
-        > #menu-toggle {
+        > .menu-toggle {
           z-index: 100;
           all: unset;
           cursor: pointer;
           color: $foreground-primary;
         }
-        > #nav-links {
+        > .nav-links {
           height: 100vh;
           flex-direction: column;
           align-items: flex-start;

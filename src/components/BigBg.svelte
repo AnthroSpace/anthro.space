@@ -13,9 +13,14 @@
   onMount(() => {
     const app = new PIXI.Application({
       antialias: true,
-      resizeTo: window,
+      height: window.innerHeight,
+      width: window.innerWidth,
       view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
+      hello: dev,
+      autoStart: true
     });
+
+    PIXI.settings.FILTER_RESOLUTION = PIXI.Filter.defaultResolution;
 
     if (dev) globalThis.__PIXI_APP__ = app;
 
@@ -47,7 +52,7 @@
 
 <div>
   {#if isVideo}
-    <video {src} muted autoplay loop playsinline id="pixi-video" />
+    <video {src} preload="auto" muted autoplay loop playsinline id="pixi-video" />
   {/if}
   <canvas id="pixi-canvas" />
 </div>

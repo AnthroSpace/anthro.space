@@ -29,17 +29,11 @@ span {
   font-size: 1em;
 }
 
-section {
+main {
+  min-height: 100vh;
+  margin: 0 auto;
   width: $page-width;
   max-width: $max-page-width;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 
 a {
@@ -74,14 +68,17 @@ a {
   }
 }
 
-#landing {
+.fullscreen {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-height: 100vh;
   min-height: 100vh;
   box-sizing: border-box;
-  margin-bottom: 30px;
+}
+
+a.with-icon {
+  display: inline-flex;
+  align-items: center;
 }

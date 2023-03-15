@@ -40,10 +40,10 @@
 
 <svelte:window on:scroll={handleScroll} on:mouseup={endDrag} />
 
-<div id="scrollbar">
-  <div id="container">
-    <span id="track" />
-    <span id="thumb" style="top: {scrollPercent * 100}%;" on:mousedown={beginDrag} />
+<div class="scrollbar">
+  <div class="container">
+    <span class="track" />
+    <span class="thumb" style="top: {scrollPercent * 100}%;" on:mousedown={beginDrag} />
   </div>
 </div>
 
@@ -52,21 +52,21 @@
   $thumb-size: 8px;
   $scrollbar-height: 250px;
 
-  #scrollbar {
+  .scrollbar {
     position: fixed;
     top: 50%;
     right: $scrollbar-offset-x;
     transform: translate(-50%, -50%);
 
-    & > #container {
-      & > #track {
+    & > .container {
+      & > .track {
         display: block;
         height: $scrollbar-height;
         width: 1px;
         background: $foreground-primary;
       }
 
-      & > #thumb {
+      & > .thumb {
         cursor: grab;
         height: $thumb-size;
         width: $thumb-size;

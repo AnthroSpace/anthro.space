@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { Readable } from "svelte/store";
-  import type { Member } from "$lib/stores";
 
   export let header: string;
   export let members: Readable<Member[]>;
@@ -9,7 +8,7 @@
 <h1>{header}</h1>
 {#each $members as member}
   <div class="member">
-    <span id="name">{member.name}</span>
+    <span class="name">{member.name}</span>
     <span
       >{#if member.twitter} <a href={member.twitter}>@{member.twitter.split("/").pop()}</a> {/if}
       {member.title}</span>
@@ -19,7 +18,7 @@
 <style lang="scss">
   .member {
     margin-bottom: 10px;
-    & > #name {
+    & > .name {
       font-size: 1.2rem;
       font-weight: bold;
       margin-bottom: 5px;

@@ -1,18 +1,19 @@
+import { error } from "@sveltejs/kit";
 import type { PageServerLoad } from "./$types";
 
 export const load: PageServerLoad = (async ({ url, locals }) => {
-  const { data: events, error } = await locals.supabase.from("events").select("*");
-  if (error) return { status: 500, error: error.message };
+  const { data: eventsMetadata, error: err } = await locals.supabase
+    .from("events")
+    .select("name, date, slug")
+    .order("date", { ascending: false });
 
-  const transformedEvents = events
-    .map((event) => {
-      return {
-        name: event.name,
-        date: event.date, // maybe do something with date
-        path: `${url.pathname}/${event.slug}`,
-      };
-    })
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  if (err) throw error(502, { message: "Could not connect to database" });
 
-  return { events: transformedEvents };
+  return {
+    events: eventsMetadata.map((e) => ({
+      name: e.name,
+      date: e.date,
+      path: `${url.pathname}/${e.slug}`,
+    })),
+  };
 }) satisfies PageServerLoad;

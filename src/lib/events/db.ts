@@ -34,39 +34,3 @@ export const getDjById = (id: string): DJ | null => {
   const dj = roster.find((dj: DJ) => dj.id.toLowerCase() === id.toLowerCase());
   return dj ? dj : null;
 };
-
-export type EventMetadata = {
-  name: string;
-  date: string;
-  slug: string;
-  path?: string;
-};
-
-export type Event = {
-  slug: string;
-  name: string;
-  date: string;
-  images: {
-    hero: string;
-    posters: string[];
-    screenshots: string[];
-  };
-  lineup: Act[];
-};
-
-type NamedLink = {
-  name: string;
-  url: string;
-};
-
-export type DJ = {
-  id: string;
-  name: string;
-  links: NamedLink[];
-};
-
-type Act = {
-  alias: string | null;
-  djs: string[];
-  set_urls: NamedLink[];
-};

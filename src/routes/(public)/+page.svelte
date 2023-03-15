@@ -1,6 +1,5 @@
 <script lang="ts">
   import { team } from "$lib/stores";
-  import { AdvancedBloomFilter } from "pixi-filters";
   import BigBg from "$components/BigBg.svelte";
   import MemberList from "$components/MemberList.svelte";
 
@@ -14,7 +13,8 @@
   <meta name="description" content="AnthroSpace" />
 </svelte:head>
 
-<section id="landing">
+<BigBg src="/video/hero2.mp4" dim isVideo />
+<section class="fullscreen">
   <h1>AnthroSpace</h1>
   <p>
     we're the folks behind MAY TWENTY THIRST, UNTITLED.ALS*, POOLTOY EQUINOX, and POOLTOY SOLSTICE.
@@ -27,10 +27,9 @@
     <p>we are LIVE: <a href="/live">WATCH</a></p>
   {/if}
   <span id="scrollarrow"><MaterialSymbolsKeyboardArrowDownRounded /></span>
-  <BigBg src="/video/hero2.mp4" dim isVideo filters={[new AdvancedBloomFilter()]} />
 </section>
 
-<section class="content">
+<section>
   <MemberList header="CREW" members={team} />
 </section>
 

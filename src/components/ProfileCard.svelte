@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { DJ } from "$lib/events/db";
-
   export let djs: DJ[];
 </script>
 

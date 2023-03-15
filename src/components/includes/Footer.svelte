@@ -6,7 +6,7 @@
 </script>
 
 <footer>
-  <div id="flex-container">
+  <div>
     <p>&copy; AnthroSpace 2023</p>
     <ul>
       <li>
@@ -29,9 +29,9 @@
 <style lang="scss">
   footer {
     background-color: $background-secondary;
-    margin-top: 30px;
+    // margin-top: 30px;
   }
-  #flex-container {
+  div {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;

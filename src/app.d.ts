@@ -6,12 +6,15 @@
 // and what to do when importing types
 
 import type { SupabaseClient } from "@supabase/supabase-js";
+import type { Application } from "pixi.js";
 
 declare global {
+  // eslint-disable-next-line no-var -- this does not work with const or let (https://stackoverflow.com/a/69429093)
+  var __PIXI_APP__: Application;
   namespace App {
     interface Error {
       message: string;
-      stack: string;
+      // stack: string;
     }
     interface Locals {
       supabase: SupabaseClient;
