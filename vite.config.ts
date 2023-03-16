@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import basicSsl from "@vitejs/plugin-basic-ssl";
+import { nodeLoaderPlugin } from "@vavite/node-loader/plugin";
 import Icons from "unplugin-icons/vite";
 
 import "dotenv/config";
@@ -9,6 +10,7 @@ export default defineConfig({
   server: { https: true },
 
   plugins: [
+    nodeLoaderPlugin(),
     sveltekit(),
     Icons({
       compiler: "svelte",

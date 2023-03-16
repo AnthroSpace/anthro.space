@@ -5,7 +5,7 @@
     "pnpm": ">=7.0.0"
   },
   "scripts": {
-    "dev": "vite dev --host",
+    "dev": "vavite-loader vite dev --host",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "svelte-kit sync",
@@ -25,6 +25,7 @@
     "@sveltejs/kit": "1.11.0",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
+    "@vavite/node-loader": "^1.6.1",
     "@vercel/analytics": "0.1.11",
     "@vitejs/plugin-basic-ssl": "1.0.1",
     "autoprefixer": "10.4.14",
