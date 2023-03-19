@@ -22,10 +22,10 @@
   <title>{data.title} | {data.subtitle}</title>
 </svelte:head>
 
-<section id="landing">
+<section class="fullscreen">
   <h1>{data.event.name}</h1>
   <p>{data.event.date}</p>
-  <div id="posters">
+  <div class="posters">
     {#each data.event.images.posters as poster}
       <div class="poster" style="background-image: url({poster});" />
     {/each}
@@ -33,9 +33,9 @@
   <BigBg src={data.event.images.hero || data.event.images.posters[0]} dim />
 </section>
 
-<section class="content">
+<section>
   <h2>Lineup</h2>
-  <div id="event-lineup">
+  <div class="event-lineup">
     {#each data.event.lineup as act}
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <div class="act">
@@ -60,7 +60,7 @@
 </section>
 
 <style lang="scss">
-  #posters {
+  .posters {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -76,12 +76,12 @@
   }
 
   @media screen and (max-width: 768px) {
-    #posters {
+    .posters {
       grid-template-columns: 1fr;
     }
   }
 
-  #event-lineup {
+  .event-lineup {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
