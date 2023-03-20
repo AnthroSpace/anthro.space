@@ -5,7 +5,7 @@ specifiers:
   '@fontsource/varela': 4.5.9
   '@iconify/json': 2.2.37
   '@prgm/sveltekit-progress-bar': 1.0.0
-  '@supabase/supabase-js': 2.11.0
+  '@supabase/supabase-js': 2.12.0
   '@sveltejs/adapter-vercel': 2.4.0
   '@sveltejs/kit': 1.12.0
   '@typescript-eslint/eslint-plugin': 5.55.0
@@ -44,7 +44,7 @@ devDependencies:
   '@fontsource/varela': 4.5.9
   '@iconify/json': 2.2.37
   '@prgm/sveltekit-progress-bar': 1.0.0_@sveltejs+kit@1.12.0
-  '@supabase/supabase-js': 2.11.0
+  '@supabase/supabase-js': 2.12.0
   '@sveltejs/adapter-vercel': 2.4.0_@sveltejs+kit@1.12.0
   '@sveltejs/kit': 1.12.0_svelte@3.57.0+vite@4.2.1
   '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
@@ -1315,10 +1315,11 @@ packages:
       - encoding
     dev: true
 
-  /@supabase/realtime-js/2.7.0:
-    resolution: {integrity: sha512-wg35ofiCpIemycmPZvvZk3jM9c9z8VvnPUBbSP9ZZN2vSOEJ9C7DZuLiiZMXsyNUzjVgIn62A1tN99T5+9O8Aw==}
+  /@supabase/realtime-js/2.7.1:
+    resolution: {integrity: sha512-WC0yPArBF/wPXwxKWTrRSMWWnFQCbhhUsX0u42x4OqUdDJtow6rzvDIZHWFZLh85UUBYIQ2++AabSNgzd3ubQg==}
     dependencies:
       '@types/phoenix': 1.5.5
+      '@types/websocket': 1.0.5
       websocket: 1.0.34
     transitivePeerDependencies:
       - supports-color
@@ -1332,13 +1333,13 @@ packages:
       - encoding
     dev: true
 
-  /@supabase/supabase-js/2.11.0:
-    resolution: {integrity: sha512-FkaPZjVx1oY4boS02kAoNhmdyy5hrezxGlY8lZdQwKvk7ee5NPiXzjjsGruc6JOS1QNeuWIUAw1L7uKVYI30dA==}
+  /@supabase/supabase-js/2.12.0:
+    resolution: {integrity: sha512-tHV4KqlPHuPt4uPu+nYwQTEp+mU7Qc0h42EyRW7rsAGGo8bmKIOGnZjyDDc5lxg0CW7OF5R5oMQWmtuuXZh00Q==}
     dependencies:
       '@supabase/functions-js': 2.1.0
       '@supabase/gotrue-js': 2.14.0
       '@supabase/postgrest-js': 1.4.1
-      '@supabase/realtime-js': 2.7.0
+      '@supabase/realtime-js': 2.7.1
       '@supabase/storage-js': 2.3.1
       cross-fetch: 3.1.5
     transitivePeerDependencies:
@@ -1427,6 +1428,10 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
+  /@types/node/18.15.5:
+    resolution: {integrity: sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==}
+    dev: true
+
   /@types/offscreencanvas/2019.7.0:
     resolution: {integrity: sha512-PGcyveRIpL1XIqK8eBsmRBt76eFgtzuPiSTyKHZxnGemp2yzGzWpjYKAfK3wIMiU7eH+851yEpiuP8JZerTmWg==}
     dev: true
@@ -1441,6 +1446,12 @@ packages:
 
   /@types/semver/7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
+    dev: true
+
+  /@types/websocket/1.0.5:
+    resolution: {integrity: sha512-NbsqiNX9CnEfC1Z0Vf4mE1SgAJ07JnRYcNex7AJ9zAVzmiGHmjKFEk7O4TJIsgv2B1sLEb6owKFZrACwdYngsQ==}
+    dependencies:
+      '@types/node': 18.15.5
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.55.0_qsnvknysi52qtaxqdyqyohkcku:
