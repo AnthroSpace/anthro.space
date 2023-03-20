@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@fontsource/fira-mono': 4.5.10
   '@fontsource/varela': 4.5.9
-  '@iconify/json': 2.2.36
+  '@iconify/json': 2.2.37
   '@prgm/sveltekit-progress-bar': 1.0.0
   '@supabase/supabase-js': 2.11.0
   '@sveltejs/adapter-vercel': 2.4.0
@@ -42,7 +42,7 @@ specifiers:
 devDependencies:
   '@fontsource/fira-mono': 4.5.10
   '@fontsource/varela': 4.5.9
-  '@iconify/json': 2.2.36
+  '@iconify/json': 2.2.37
   '@prgm/sveltekit-progress-bar': 1.0.0_@sveltejs+kit@1.12.0
   '@supabase/supabase-js': 2.11.0
   '@sveltejs/adapter-vercel': 2.4.0_@sveltejs+kit@1.12.0
@@ -552,8 +552,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/json/2.2.36:
-    resolution: {integrity: sha512-M3NzzLjmE5udIO24EgT9MV1LfU5FQDw9nfAfgrV3NySiLMtZFoOvFEdURJihH2SJWCoFhIpRRkgSZKN8qWIhuQ==}
+  /@iconify/json/2.2.37:
+    resolution: {integrity: sha512-3PHw+H9hMUYZ+wUij6DmdWxBnBIYOMtsKGRrJUHsKhMloy4kcOu+Yi2XKfD8JvXgJ6ybzoNAXOkKDgEqY0JKQw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.0
