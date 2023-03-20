@@ -27,7 +27,7 @@ specifiers:
   prettier: 2.8.5
   prettier-plugin-svelte: 2.9.0
   sass: 1.59.3
-  supabase: 1.42.7
+  supabase: 1.42.8
   svelte: 3.57.0
   svelte-check: 3.1.4
   svelte-preprocess: 5.0.3
@@ -66,7 +66,7 @@ devDependencies:
   prettier: 2.8.5
   prettier-plugin-svelte: 2.9.0_olnlr4336c4vkm7c26l3r45yii
   sass: 1.59.3
-  supabase: 1.42.7
+  supabase: 1.42.8
   svelte: 3.57.0
   svelte-check: 3.1.4_ypdkaira24qvj5wapt3gb3lzse
   svelte-preprocess: 5.0.3_i2wcdmahlu35qvmespfn6uxp5a
@@ -3819,8 +3819,8 @@ packages:
       postcss-selector-parser: 6.0.11
     dev: true
 
-  /supabase/1.42.7:
-    resolution: {integrity: sha512-wBdb5MDqsB9J7IYf9Pilat4Q0NSehTs3iC1ghPSfxrzIhlwHelN2AT+5FDy0CBgHcFSdj4OoKCFDARKSvWst9w==}
+  /supabase/1.42.8:
+    resolution: {integrity: sha512-z4sVqaQ3l/WUyqKm8PyJ5Il1zVNsHxfw7KKUGAY6nERAPKOEwr1h20q6dL9dPspLfZgVBVtgwbUp3oFYSi/90A==}
     hasBin: true
     requiresBuild: true
     dependencies:
