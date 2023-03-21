@@ -19,7 +19,7 @@ specifiers:
   eslint: 8.36.0
   eslint-config-prettier: 8.8.0
   eslint-plugin-svelte3: 4.0.0
-  lucide-svelte: 0.126.0
+  lucide-svelte: 0.127.0
   pixi-filters: 5.2.0
   pixi.js: 7.2.1
   postcss: 8.4.21
@@ -58,7 +58,7 @@ devDependencies:
   eslint: 8.36.0
   eslint-config-prettier: 8.8.0_eslint@8.36.0
   eslint-plugin-svelte3: 4.0.0_wzem237sbvnwe7n34ytc5phasy
-  lucide-svelte: 0.126.0_svelte@3.57.0
+  lucide-svelte: 0.127.0_svelte@3.57.0
   pixi-filters: 5.2.0_wmizdqd73fzopfx56ktpnplouy
   pixi.js: 7.2.1_@pixi+utils@7.2.1
   postcss: 8.4.21
@@ -2797,8 +2797,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-svelte/0.126.0_svelte@3.57.0:
-    resolution: {integrity: sha512-Ni4y8lc2CC9WXMREVjZ3wkRtNdB1IwuQcWlQ/st53IRCQee9N0VmZtKj0qSD98/TdcN8Tid1LNP/fApiLjWFpw==}
+  /lucide-svelte/0.127.0_svelte@3.57.0:
+    resolution: {integrity: sha512-TsdJaL+PvpC9ICpUa/7aV2KVAzyeDODOJwwCgIpPmkdX88hgRnASoD4JcDgLz5PKqMXjY/mXWd9wY8HDCGeDhQ==}
     peerDependencies:
       svelte: ^3.49.0
     dependencies:
