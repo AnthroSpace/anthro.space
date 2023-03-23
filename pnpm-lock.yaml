@@ -5,7 +5,7 @@ specifiers:
   '@fontsource/varela': 4.5.9
   '@iconify/json': 2.2.38
   '@prgm/sveltekit-progress-bar': 1.0.0
-  '@supabase/supabase-js': 2.12.0
+  '@supabase/supabase-js': 2.12.1
   '@sveltejs/adapter-vercel': 2.4.0
   '@sveltejs/kit': 1.13.0
   '@typescript-eslint/eslint-plugin': 5.56.0
@@ -44,7 +44,7 @@ devDependencies:
   '@fontsource/varela': 4.5.9
   '@iconify/json': 2.2.38
   '@prgm/sveltekit-progress-bar': 1.0.0_@sveltejs+kit@1.13.0
-  '@supabase/supabase-js': 2.12.0
+  '@supabase/supabase-js': 2.12.1
   '@sveltejs/adapter-vercel': 2.4.0_@sveltejs+kit@1.13.0
   '@sveltejs/kit': 1.13.0_svelte@3.57.0+vite@4.2.1
   '@typescript-eslint/eslint-plugin': 5.56.0_2hcjazgfnbtq42tcc73br2vup4
@@ -1299,8 +1299,8 @@ packages:
       - encoding
     dev: true
 
-  /@supabase/gotrue-js/2.14.0:
-    resolution: {integrity: sha512-FI6q4n4iZ2zrEt1BnBYYe8HQ1k9t5CpBcDQxVXa8PeMwygXpzR0AcdfAsZ5Yba42C8YsBA132ti01f+RINS3UQ==}
+  /@supabase/gotrue-js/2.16.0:
+    resolution: {integrity: sha512-k7curH5xxnQmUiG8AeFW7KEJST99vhFnBCidWFhuSSyLP1Ja8Ix3g4bmLUv209mhX8LmAaDMGKNQs8gG0MOKCw==}
     dependencies:
       cross-fetch: 3.1.5
     transitivePeerDependencies:
@@ -1333,11 +1333,11 @@ packages:
       - encoding
     dev: true
 
-  /@supabase/supabase-js/2.12.0:
-    resolution: {integrity: sha512-tHV4KqlPHuPt4uPu+nYwQTEp+mU7Qc0h42EyRW7rsAGGo8bmKIOGnZjyDDc5lxg0CW7OF5R5oMQWmtuuXZh00Q==}
+  /@supabase/supabase-js/2.12.1:
+    resolution: {integrity: sha512-sni5tYUCjLd57xuFbL8iGP/hAq2rS/Bxh3StrGjO0v78bMcS+WPh6E/WV5SstvOrxS78RKI8fASm3jk8/UjVXA==}
     dependencies:
       '@supabase/functions-js': 2.1.0
-      '@supabase/gotrue-js': 2.14.0
+      '@supabase/gotrue-js': 2.16.0
       '@supabase/postgrest-js': 1.4.1
       '@supabase/realtime-js': 2.7.1
       '@supabase/storage-js': 2.3.1
