@@ -80,8 +80,8 @@ devDependencies:
     specifier: 1.60.0
     version: 1.60.0
   supabase:
-    specifier: 1.45.3
-    version: 1.45.3
+    specifier: 1.46.5
+    version: 1.46.5
   svelte:
     specifier: 3.57.0
     version: 3.57.0
@@ -3870,8 +3870,8 @@ packages:
       postcss-selector-parser: 6.0.11
     dev: true
 
-  /supabase@1.45.3:
-    resolution: {integrity: sha512-qdQCFRnao60IObMyMSvEFjRD8OZgd2gMDFMryQsudAAOyWCd84g7lI3yuA36XE1Ia32QPcKzQLL3jh9ceqO3HA==}
+  /supabase@1.46.5:
+    resolution: {integrity: sha512-N1BObR6JYubMqjacpvJ9/WixEBsPS6KSCqVxg4D+X3SLcqP3p05ppjF2he/m9b48KwNgohZ2eno5Hes8GxtNtg==}
     hasBin: true
     requiresBuild: true
     dependencies:
