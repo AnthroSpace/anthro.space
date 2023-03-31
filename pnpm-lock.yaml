@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0(@sveltejs/kit@1.15.0)
   '@supabase/supabase-js':
-    specifier: 2.13.0
-    version: 2.13.0
+    specifier: 2.13.1
+    version: 2.13.1
   '@sveltejs/adapter-vercel':
     specifier: 2.4.1
     version: 2.4.1(@sveltejs/kit@1.15.0)
@@ -1368,8 +1368,8 @@ packages:
       - encoding
     dev: true
 
-  /@supabase/supabase-js@2.13.0:
-    resolution: {integrity: sha512-D37k5BIwYa4/XNe9eEPz8W0L8MS5w0j16wFDd0twClJC/z+wA4tbcaeWm5Q8IsMeExPa0LrdSrQwPI5bBg6trg==}
+  /@supabase/supabase-js@2.13.1:
+    resolution: {integrity: sha512-+Q3FMj0TuI6xJBTTREIRxuLW1QreZhtRxlF5+7aprmlVq1+GsMfnpBOpXcdyhcWWL8UcmaoMJD8tJiedXGCXlg==}
     dependencies:
       '@supabase/functions-js': 2.1.0
       '@supabase/gotrue-js': 2.16.0
