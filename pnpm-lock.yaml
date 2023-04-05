@@ -56,8 +56,8 @@ devDependencies:
     specifier: 4.0.0
     version: 4.0.0(eslint@8.37.0)(svelte@3.58.0)
   lucide-svelte:
-    specifier: 0.130.0
-    version: 0.130.0(svelte@3.58.0)
+    specifier: 0.130.1
+    version: 0.130.1(svelte@3.58.0)
   pixi-filters:
     specifier: 5.2.1
     version: 5.2.1(@pixi/core@7.2.3)(@pixi/filter-alpha@7.2.3)(@pixi/filter-blur@7.2.3)
@@ -2840,8 +2840,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-svelte@0.130.0(svelte@3.58.0):
-    resolution: {integrity: sha512-KDxJsWucA8p6XnNR5JDLvy3opMyQHWBZd+0mUO+1NI573UHmt7GDETWBynmbAjqavLH/SLT2r6P587aM4IAmPw==}
+  /lucide-svelte@0.130.1(svelte@3.58.0):
+    resolution: {integrity: sha512-mDL//F4bu36uB3ioL863oi56OPuHWFS35sfj17MArWOB79A2n7oIOACmYKfqoiFzjZoYDG24BHwRbLP1Z0uncA==}
     peerDependencies:
       svelte: ^3.49.0
     dependencies:
