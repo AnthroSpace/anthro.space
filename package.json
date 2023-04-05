@@ -53,7 +53,7 @@
     "typescript": "5.0.3",
     "unplugin-icons": "0.16.1",
     "vite": "4.2.1",
-    "web-vitals": "3.3.0"
+    "web-vitals": "3.3.1"
   },
   "type": "module"
 }
