@@ -12,16 +12,16 @@ devDependencies:
     version: 2.2.46
   '@prgm/sveltekit-progress-bar':
     specifier: 1.0.0
-    version: 1.0.0(@sveltejs/kit@1.15.1)
+    version: 1.0.0(@sveltejs/kit@1.15.2)
   '@supabase/supabase-js':
     specifier: 2.14.0
     version: 2.14.0
   '@sveltejs/adapter-vercel':
     specifier: 2.4.1
-    version: 2.4.1(@sveltejs/kit@1.15.1)
+    version: 2.4.1(@sveltejs/kit@1.15.2)
   '@sveltejs/kit':
-    specifier: 1.15.1
-    version: 1.15.1(svelte@3.58.0)(vite@4.2.1)
+    specifier: 1.15.2
+    version: 1.15.2(svelte@3.58.0)(vite@4.2.1)
   '@typescript-eslint/eslint-plugin':
     specifier: 5.57.1
     version: 5.57.1(@typescript-eslint/parser@5.57.1)(eslint@8.37.0)(typescript@5.0.3)
@@ -1309,13 +1309,13 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@prgm/sveltekit-progress-bar@1.0.0(@sveltejs/kit@1.15.1):
+  /@prgm/sveltekit-progress-bar@1.0.0(@sveltejs/kit@1.15.2):
     resolution: {integrity: sha512-E32QXXaeaWt8S3m/jPV+c/k3Jun2+CFtonvg66gm1izEJ3dx1xAJkxfNJdZQWcv9Jy75zSiB8jpEfOxnsxOKzw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.15.1(svelte@3.58.0)(vite@4.2.1)
+      '@sveltejs/kit': 1.15.2(svelte@3.58.0)(vite@4.2.1)
     dev: true
 
   /@rollup/pluginutils@4.2.1:
@@ -1382,12 +1382,12 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/adapter-vercel@2.4.1(@sveltejs/kit@1.15.1):
+  /@sveltejs/adapter-vercel@2.4.1(@sveltejs/kit@1.15.2):
     resolution: {integrity: sha512-7YOHBq8onxqD5ZshQhveuSzJg9ZOicKoNZQtOnAj++0MJmPElxQ5Mjqp6aQfIhHAHl8tn5UbacCpvR39mPejgw==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.15.1(svelte@3.58.0)(vite@4.2.1)
+      '@sveltejs/kit': 1.15.2(svelte@3.58.0)(vite@4.2.1)
       '@vercel/nft': 0.22.6
       esbuild: 0.16.17
     transitivePeerDependencies:
@@ -1395,8 +1395,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit@1.15.1(svelte@3.58.0)(vite@4.2.1):
-    resolution: {integrity: sha512-Wexy3N+COoClTuRawVJRbLoH5HFxNrXG3uoHt/Yd5IGx8WAcJM9Nj/CcBLw/tjCR9uDDYMnx27HxuPy3YIYQUA==}
+  /@sveltejs/kit@1.15.2(svelte@3.58.0)(vite@4.2.1):
+    resolution: {integrity: sha512-rLNxZrjbrlPf8AWW8GAU4L/Vvu17e9v8EYl7pUip7x72lTft7RcxeP3z7tsrHpMSBBxC9o4XdKzFvz1vMZyXZw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
