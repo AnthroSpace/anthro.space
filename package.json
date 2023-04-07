@@ -21,7 +21,7 @@
     "@fontsource/varela": "4.5.9",
     "@iconify/json": "2.2.46",
     "@prgm/sveltekit-progress-bar": "1.0.0",
-    "@supabase/supabase-js": "2.14.0",
+    "@supabase/supabase-js": "2.15.0",
     "@sveltejs/adapter-vercel": "2.4.1",
     "@sveltejs/kit": "1.15.2",
     "@typescript-eslint/eslint-plugin": "5.57.1",
