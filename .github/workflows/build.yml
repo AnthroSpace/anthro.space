@@ -56,7 +56,7 @@ jobs:
 
       - name: Create archive
         shell: bash
-        run: tar -czvf ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz -C ${{ github.workspace }} ./.vercel/
+        run: tar -czvf ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz -C ${{ github.workspace }}/.vercel/output/ .
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3.1.2
