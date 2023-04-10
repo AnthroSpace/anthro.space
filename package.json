@@ -4,7 +4,7 @@
     "node": ">=18.13.0 <20.0.0",
     "pnpm": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.2.0",
   "scripts": {
     "dev": "vavite-loader vite dev --host",
     "build": "vite build",
