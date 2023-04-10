@@ -19,7 +19,7 @@
   "devDependencies": {
     "@fontsource/fira-mono": "4.5.10",
     "@fontsource/varela": "4.5.9",
-    "@iconify/json": "2.2.47",
+    "@iconify/json": "2.2.48",
     "@prgm/sveltekit-progress-bar": "1.0.0",
     "@supabase/supabase-js": "2.15.0",
     "@sveltejs/adapter-vercel": "2.4.1",
