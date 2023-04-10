@@ -29,16 +29,17 @@ jobs:
         with:
           run_install: false
 
-      - name: Get pnpm store directory
-        id: pnpm-cache
+      - name: Set outputs
+        id: set-outputs
         shell: bash
         run: |
           echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+          echo "SHORT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
       - name: Setup pnpm cache
         uses: actions/cache@v3.3.1
         with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          path: ${{ steps.set-outputs.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
@@ -55,10 +56,10 @@ jobs:
 
       - name: Create archive
         shell: bash
-        run: tar -czvf ${{ github.workspace }}/anthrospace-vercel.tar.gz ${{ github.workspace }}/.vercel/
+        run: tar -czvf ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz ${{ github.workspace }}/.vercel/
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: anthrospace-vercel
-          path: ${{ github.workspace }}/.vercel/
+          name: ${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}
+          path: ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz
