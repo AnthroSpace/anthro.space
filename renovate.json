@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":semanticCommits", "schedule:weekly"],
+  "extends": ["config:base", ":semanticCommits", "schedule:weekly", "schedule:automergeWeekly"],
   "automerge": true,
   "automergeType": "branch",
   "packageRules": [
