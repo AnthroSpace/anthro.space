@@ -27,7 +27,7 @@
     "@typescript-eslint/eslint-plugin": "5.57.1",
     "@typescript-eslint/parser": "5.57.1",
     "@vavite/node-loader": "1.7.0",
-    "@vercel/analytics": "0.1.11",
+    "@vercel/analytics": "1.0.1",
     "@vitejs/plugin-basic-ssl": "1.0.1",
     "autoprefixer": "10.4.14",
     "cssnano": "6.0.0",
