@@ -17,8 +17,8 @@
     "fmt": "pnpm format"
   },
   "devDependencies": {
-    "@fontsource/fira-mono": "4.5.10",
-    "@fontsource/varela": "4.5.9",
+    "@fontsource/fira-mono": "5.0.3",
+    "@fontsource/varela": "5.0.3",
     "@iconify/json": "2.2.82",
     "@prgm/sveltekit-progress-bar": "1.0.0",
     "@supabase/supabase-js": "2.26.0",

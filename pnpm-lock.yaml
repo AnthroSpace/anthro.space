@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@fontsource/fira-mono':
-    specifier: 4.5.10
-    version: 4.5.10
+    specifier: 5.0.3
+    version: 5.0.3
   '@fontsource/varela':
-    specifier: 4.5.9
-    version: 4.5.9
+    specifier: 5.0.3
+    version: 5.0.3
   '@iconify/json':
     specifier: 2.2.82
     version: 2.2.82
@@ -365,12 +365,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/fira-mono@4.5.10:
-    resolution: {integrity: sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==}
+  /@fontsource/fira-mono@5.0.3:
+    resolution: {integrity: sha512-AN08SykeaFazTC0d0HHOZeQ3jmHyn2Qs5bGEjhxuNp9NjUqg9rL8x+LxrXWdVIo8PBg0xbnkcA3KR6RVvQeRAg==}
     dev: true
 
-  /@fontsource/varela@4.5.9:
-    resolution: {integrity: sha512-8EBcYT88x/+7A6sa70K5gZOWxvt5qtoyUpaEOIwdYuKk8DhEV0FHsZzDF0CZhJk0yRLpLwBJ1WDs1LUpJlw8zA==}
+  /@fontsource/varela@5.0.3:
+    resolution: {integrity: sha512-M0AckVZa9XIGhG714y4ECWjOlSv8bgWWEVMNAoRWYUz5P6iux7fPrIuECSbDX3PdbopLtYUBNW++7g+LSMW9jA==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.10:
