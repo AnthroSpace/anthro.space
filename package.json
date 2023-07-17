@@ -40,7 +40,7 @@
     "pixi.js": "7.2.4",
     "postcss": "8.4.25",
     "postcss-load-config": "4.0.1",
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "prettier-plugin-svelte": "2.10.1",
     "sass": "1.63.6",
     "supabase": "1.75.3",
