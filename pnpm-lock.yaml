@@ -33,8 +33,8 @@ devDependencies:
     specifier: 5.62.0
     version: 5.62.0(eslint@8.45.0)(typescript@5.1.6)
   '@vavite/node-loader':
-    specifier: 1.8.3
-    version: 1.8.3(vite@4.4.6)
+    specifier: 2.0.1
+    version: 2.0.1(vite@4.4.6)
   '@vercel/analytics':
     specifier: 1.0.1
     version: 1.0.1
@@ -1444,11 +1444,11 @@ packages:
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@vavite/node-loader@1.8.3(vite@4.4.6):
-    resolution: {integrity: sha512-VfbeBMHv6XldY0253+769R5s8ke3fjB08Y1oOA54pg1basBfreCWnw6KE4b54H4Tz3jNUSaqjMkAvztEp3w/CA==}
+  /@vavite/node-loader@2.0.1(vite@4.4.6):
+    resolution: {integrity: sha512-zzHGvLru9KMZYplFuKrLmFZZMzJrCeR0MCYljczRzLCJSqWKM0xAPqvuKoDD7S/D0v5qv1noMF2RhNwDYA+8IQ==}
     hasBin: true
     peerDependencies:
-      vite: '>=2.8.1'
+      vite: ^2.8.1 || 3 || 4
     dependencies:
       vite: 4.4.6(sass@1.64.1)
     dev: true
