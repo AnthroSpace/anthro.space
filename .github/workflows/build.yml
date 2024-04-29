@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.4
 
       - name: Install Node.js
         uses: actions/setup-node@v4.0.2
@@ -60,7 +60,7 @@ jobs:
         run: tar -czvf ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz -C ${{ github.workspace }}/.vercel/output/ .
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4.3.2
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: ${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}
           path: ${{ github.workspace }}/${{ github.event.repository.name  }}-${{ steps.set-outputs.outputs.SHORT_SHA }}.tar.gz
