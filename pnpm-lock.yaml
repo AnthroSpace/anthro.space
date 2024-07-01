@@ -117,8 +117,8 @@ importers:
         specifier: 5.3.2
         version: 5.3.2(@types/node@18.15.11)(sass@1.77.6)
       web-vitals:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 4.2.1
+        version: 4.2.1
 
 packages:
 
@@ -2331,8 +2331,8 @@ packages:
     resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
     engines: {node: '>= 8'}
 
-  web-vitals@3.5.2:
-    resolution: {integrity: sha512-c0rhqNcHXRkY/ogGDJQxZ9Im9D19hDihbzSQJrsioex+KnFgmMzBiy57Z1EjkhX/+OjyBpclDCzz2ITtjokFmg==}
+  web-vitals@4.2.1:
+    resolution: {integrity: sha512-U6bAxeudnhDqcXNl50JC4hLlqox9DZnngxfISZm3DMZnonW35xtJOVUc091L+DOY+6hVZVpKXoiCP0RiT6339Q==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -4484,7 +4484,7 @@ snapshots:
 
   web-streams-polyfill@3.2.1: {}
 
-  web-vitals@3.5.2: {}
+  web-vitals@4.2.1: {}
 
   webidl-conversions@3.0.1: {}
 
