@@ -22,7 +22,7 @@
     "@iconify/json": "2.2.231",
     "@prgm/sveltekit-progress-bar": "2.0.0",
     "@supabase/supabase-js": "2.44.4",
-    "@sveltejs/adapter-vercel": "4.0.5",
+    "@sveltejs/adapter-vercel": "5.4.1",
     "@sveltejs/kit": "1.30.4",
     "@typescript-eslint/eslint-plugin": "7.17.0",
     "@typescript-eslint/parser": "7.17.0",
