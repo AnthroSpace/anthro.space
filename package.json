@@ -23,7 +23,7 @@
     "@prgm/sveltekit-progress-bar": "2.0.0",
     "@supabase/supabase-js": "2.44.4",
     "@sveltejs/adapter-vercel": "4.0.5",
-    "@sveltejs/kit": "1.30.4",
+    "@sveltejs/kit": "2.5.20",
     "@typescript-eslint/eslint-plugin": "7.17.0",
     "@typescript-eslint/parser": "7.17.0",
     "@vavite/node-loader": "4.1.1",
