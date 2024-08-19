@@ -9,26 +9,26 @@ importers:
   .:
     devDependencies:
       '@fontsource/fira-mono':
-        specifier: 5.0.13
-        version: 5.0.13
+        specifier: 5.0.14
+        version: 5.0.14
       '@fontsource/varela':
-        specifier: 5.0.13
-        version: 5.0.13
+        specifier: 5.0.14
+        version: 5.0.14
       '@iconify/json':
-        specifier: 2.2.235
-        version: 2.2.235
+        specifier: 2.2.238
+        version: 2.2.238
       '@prgm/sveltekit-progress-bar':
         specifier: 2.0.0
-        version: 2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)
+        version: 2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)
       '@supabase/supabase-js':
         specifier: 2.45.1
         version: 2.45.1
       '@sveltejs/adapter-vercel':
         specifier: 4.0.5
-        version: 4.0.5(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))
+        version: 4.0.5(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))
       '@sveltejs/kit':
         specifier: 1.30.4
-        version: 1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+        version: 1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       '@typescript-eslint/eslint-plugin':
         specifier: 7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@9.9.0)(typescript@5.5.4))(eslint@9.9.0)(typescript@5.5.4)
@@ -37,13 +37,13 @@ importers:
         version: 7.18.0(eslint@9.9.0)(typescript@5.5.4)
       '@vavite/node-loader':
         specifier: 4.1.2
-        version: 4.1.2(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+        version: 4.1.2(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       '@vercel/analytics':
         specifier: 1.3.1
         version: 1.3.1
       '@vitejs/plugin-basic-ssl':
         specifier: 1.1.0
-        version: 1.1.0(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+        version: 1.1.0(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.41)
@@ -63,14 +63,14 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(eslint@9.9.0)(svelte@4.2.18)
       lucide-svelte:
-        specifier: 0.427.0
-        version: 0.427.0(svelte@4.2.18)
+        specifier: 0.428.0
+        version: 0.428.0(svelte@4.2.18)
       pixi-filters:
         specifier: 6.0.4
-        version: 6.0.4(pixi.js@8.3.2)
+        version: 6.0.4(pixi.js@8.3.3)
       pixi.js:
-        specifier: 8.3.2
-        version: 8.3.2
+        specifier: 8.3.3
+        version: 8.3.3
       postcss:
         specifier: 8.4.41
         version: 8.4.41
@@ -87,8 +87,8 @@ importers:
         specifier: 1.77.8
         version: 1.77.8
       supabase:
-        specifier: 1.187.10
-        version: 1.187.10
+        specifier: 1.190.0
+        version: 1.190.0
       svelte:
         specifier: 4.2.18
         version: 4.2.18
@@ -114,8 +114,8 @@ importers:
         specifier: 0.19.2
         version: 0.19.2
       vite:
-        specifier: 5.4.0
-        version: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+        specifier: 5.4.1
+        version: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
       web-vitals:
         specifier: 4.2.3
         version: 4.2.3
@@ -445,11 +445,11 @@ packages:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
 
-  '@fontsource/fira-mono@5.0.13':
-    resolution: {integrity: sha512-fZDjR2BdAqmauEbTjcIT62zYzbOgDa5+IQH34D2k8Pxmy1T815mAqQkZciWZVQ9dc/BgdTtTUV9HJ2ulBNwchg==}
+  '@fontsource/fira-mono@5.0.14':
+    resolution: {integrity: sha512-4IKa+cuHipk/vr2frgZh4pyR2XcoQk/j3zmMlo8uuAGUB3IPLpQlgN6Qm5d3RfRZ7dXGlTn/PWiAJeU8bkmD4w==}
 
-  '@fontsource/varela@5.0.13':
-    resolution: {integrity: sha512-pK+yewTxSz1Ol2EhX6waDyxP745SZv243Wgj9vL+QL2ReLooRpirAH6Z+RG0YNpII0ZBn0nIzZEomaUbH19DAA==}
+  '@fontsource/varela@5.0.14':
+    resolution: {integrity: sha512-9qjEY2avt+dkhKl8koQ4yj/QED0xfA6uzElWocu61cy+gZsyOSVX0ceziuY0ldteAozrtxue/w6hsTYnJVZRag==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -459,8 +459,8 @@ packages:
     resolution: {integrity: sha512-d2CGZR2o7fS6sWB7DG/3a95bGKQyHMACZ5aW8qGkkqQpUoZV6C0X7Pc7l4ZNMZkfNBf4VWNe9E1jRsf0G146Ew==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.235':
-    resolution: {integrity: sha512-8a5r/uIZY3DvJPCkRCMly0BgmsxItMTR6RjGnifQ0kGrLSE7TpdYIfQya9Ckd2qfWjD20WZmWblpFm1FcF6ybQ==}
+  '@iconify/json@2.2.238':
+    resolution: {integrity: sha512-wtsUtPGeHH4Jy0Z+oIKyD9ldrFISAEzfGs1SM+PthhHRywDDiZsP2iVn6d2Vzn03wVTB7b8882zoztWWPl1ZmA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -1471,8 +1471,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  lucide-svelte@0.427.0:
-    resolution: {integrity: sha512-l0IJqYVBTxMkJPvZqyIMyVFlbZ18Mjg0n6p7Zo9bSQNvsmeviTyOxYmYdp/G5gXcSHaOGL6YoQW7fmbFklbW/w==}
+  lucide-svelte@0.428.0:
+    resolution: {integrity: sha512-XiwnbKEwPiwbYfhPRASbIuGwF9zqaSbQahpNFNLNpIsZ/Wi8nimpkqq28pb3U6EqBOsFrcRtcrMO5CNN8dGr8Q==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -1704,8 +1704,8 @@ packages:
     peerDependencies:
       pixi.js: '>=8.0.0-0'
 
-  pixi.js@8.3.2:
-    resolution: {integrity: sha512-z9/aADIGV8IqCD/pd1WuzNQWAnNG229Uj/EvMrVtJMMGOzGGN5Qr6seMdjzoOJtTQsR+eKu8Ftr5KNFEfCsriw==}
+  pixi.js@8.3.3:
+    resolution: {integrity: sha512-dpucBKAqEm0K51MQKlXvyIJ40bcxniP82uz4ZPEQejGtPp0P+vueuG5DyArHCkC48mkVE2FEDvyYvBa45/JlQg==}
 
   pkg-types@1.1.0:
     resolution: {integrity: sha512-/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==}
@@ -2078,8 +2078,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
-  supabase@1.187.10:
-    resolution: {integrity: sha512-7Nc50xN0k/G5fX3bpa+ZaulBoK/i5jwdjXhiNzyZhUf8qEWQnSsT1LTidCvpzuGt+8Gi6G3aMAh/5GlRdBLIoQ==}
+  supabase@1.190.0:
+    resolution: {integrity: sha512-Ez07pA+xhffXbfWAF9PfE2teW95vINFPFAbTlXUChMh4Jjm0CYO7cgg4qSxJjmnylSB3R0uo36WFEKm1wUeupA==}
     engines: {npm: '>=8'}
     hasBin: true
 
@@ -2283,8 +2283,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@5.4.0:
-    resolution: {integrity: sha512-5xokfMX0PIiwCMCMb9ZJcMyh5wbBun0zUzKib+L65vAZ8GY9ePZMXxFrHbr/Kyll2+LSCY7xtERPpxkBDKngwg==}
+  vite@5.4.1:
+    resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2586,15 +2586,15 @@ snapshots:
 
   '@fastify/busboy@2.0.0': {}
 
-  '@fontsource/fira-mono@5.0.13': {}
+  '@fontsource/fira-mono@5.0.14': {}
 
-  '@fontsource/varela@5.0.13': {}
+  '@fontsource/varela@5.0.14': {}
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.3.0': {}
 
-  '@iconify/json@2.2.235':
+  '@iconify/json@2.2.238':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -2684,9 +2684,9 @@ snapshots:
 
   '@polka/url@1.0.0-next.21': {}
 
-  '@prgm/sveltekit-progress-bar@2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)':
+  '@prgm/sveltekit-progress-bar@2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)':
     dependencies:
-      '@sveltejs/kit': 1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      '@sveltejs/kit': 1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       svelte: 4.2.18
 
   '@rollup/pluginutils@4.2.1':
@@ -2781,18 +2781,18 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@sveltejs/adapter-vercel@4.0.5(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))':
+  '@sveltejs/adapter-vercel@4.0.5(@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))':
     dependencies:
-      '@sveltejs/kit': 1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      '@sveltejs/kit': 1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       '@vercel/nft': 0.26.2
       esbuild: 0.19.11
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))':
+  '@sveltejs/kit@1.30.4(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.5.2(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      '@sveltejs/vite-plugin-svelte': 2.5.2(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       '@types/cookie': 0.5.1
       cookie: 0.5.0
       devalue: 4.3.2
@@ -2806,30 +2806,30 @@ snapshots:
       svelte: 4.2.18
       tiny-glob: 0.2.9
       undici: 5.28.3
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))':
+  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.5.2(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      '@sveltejs/vite-plugin-svelte': 2.5.2(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       debug: 4.3.4
       svelte: 4.2.18
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))':
+  '@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.2(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)))(svelte@4.2.18)(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.5
       svelte: 4.2.18
       svelte-hmr: 0.15.3(svelte@4.2.18)
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
-      vitefu: 0.2.4(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
+      vitefu: 0.2.4(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))
     transitivePeerDependencies:
       - supports-color
 
@@ -2909,7 +2909,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.18.0
       '@typescript-eslint/visitor-keys': 7.18.0
-      debug: 4.3.4
+      debug: 4.3.6
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
@@ -2936,9 +2936,9 @@ snapshots:
       '@typescript-eslint/types': 7.18.0
       eslint-visitor-keys: 3.4.3
 
-  '@vavite/node-loader@4.1.2(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))':
+  '@vavite/node-loader@4.1.2(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))':
     dependencies:
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
 
   '@vercel/analytics@1.3.1':
     dependencies:
@@ -2962,9 +2962,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@vitejs/plugin-basic-ssl@1.1.0(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8))':
+  '@vitejs/plugin-basic-ssl@1.1.0(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8))':
     dependencies:
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
 
   '@webgpu/types@0.1.40': {}
 
@@ -2988,13 +2988,13 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
@@ -3583,14 +3583,14 @@ snapshots:
   https-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
@@ -3700,7 +3700,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-svelte@0.427.0(svelte@4.2.18):
+  lucide-svelte@0.428.0(svelte@4.2.18):
     dependencies:
       svelte: 4.2.18
 
@@ -3898,12 +3898,12 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  pixi-filters@6.0.4(pixi.js@8.3.2):
+  pixi-filters@6.0.4(pixi.js@8.3.3):
     dependencies:
       '@types/gradient-parser': 0.1.5
-      pixi.js: 8.3.2
+      pixi.js: 8.3.3
 
-  pixi.js@8.3.2:
+  pixi.js@8.3.3:
     dependencies:
       '@pixi/colord': 2.9.6
       '@types/css-font-loading-module': 0.0.12
@@ -4262,7 +4262,7 @@ snapshots:
       postcss: 8.4.41
       postcss-selector-parser: 6.1.1
 
-  supabase@1.187.10:
+  supabase@1.190.0:
     dependencies:
       bin-links: 4.0.3
       https-proxy-agent: 7.0.2
@@ -4444,7 +4444,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@5.4.0(@types/node@18.15.11)(sass@1.77.8):
+  vite@5.4.1(@types/node@18.15.11)(sass@1.77.8):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
@@ -4454,9 +4454,9 @@ snapshots:
       fsevents: 2.3.3
       sass: 1.77.8
 
-  vitefu@0.2.4(vite@5.4.0(@types/node@18.15.11)(sass@1.77.8)):
+  vitefu@0.2.4(vite@5.4.1(@types/node@18.15.11)(sass@1.77.8)):
     optionalDependencies:
-      vite: 5.4.0(@types/node@18.15.11)(sass@1.77.8)
+      vite: 5.4.1(@types/node@18.15.11)(sass@1.77.8)
 
   web-streams-polyfill@3.2.1: {}
 
