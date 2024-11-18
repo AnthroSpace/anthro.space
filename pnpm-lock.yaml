@@ -18,8 +18,8 @@ importers:
         specifier: 2.2.245
         version: 2.2.245
       '@prgm/sveltekit-progress-bar':
-        specifier: 2.0.0
-        version: 2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.19)(vite@5.4.6(@types/node@18.15.11)(sass@1.78.0)))(svelte@4.2.19)
+        specifier: 3.0.1
+        version: 3.0.1(@sveltejs/kit@1.30.4(svelte@4.2.19)(vite@5.4.6(@types/node@18.15.11)(sass@1.78.0)))(svelte@4.2.19)
       '@supabase/supabase-js':
         specifier: 2.45.3
         version: 2.45.3
@@ -527,12 +527,12 @@ packages:
   '@polka/url@1.0.0-next.21':
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  '@prgm/sveltekit-progress-bar@2.0.0':
-    resolution: {integrity: sha512-N9SlYDfpqaY9MyG85Wk38R9/BipIUdTJ4U7LVPY5cFn5cwGZrVA1lsXC3I2kmGtwz+DF6v/DvySkYOWCPmJV4A==}
-    engines: {node: '>=18'}
+  '@prgm/sveltekit-progress-bar@3.0.1':
+    resolution: {integrity: sha512-ztVsKJPIs5DJPrEGA/+6fSGfmzN4XF4cID6x1FxcZAt1J39CwTYz4ipK68fqOUcBE9x2Kwxpjnmr3oOI1C5vkA==}
+    engines: {node: ^20.5.0 || >=22.2.0}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
-      svelte: ^4.0.0
+      svelte: ^5.0.0
 
   '@rollup/pluginutils@4.2.1':
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -2588,7 +2588,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.21': {}
 
-  '@prgm/sveltekit-progress-bar@2.0.0(@sveltejs/kit@1.30.4(svelte@4.2.19)(vite@5.4.6(@types/node@18.15.11)(sass@1.78.0)))(svelte@4.2.19)':
+  '@prgm/sveltekit-progress-bar@3.0.1(@sveltejs/kit@1.30.4(svelte@4.2.19)(vite@5.4.6(@types/node@18.15.11)(sass@1.78.0)))(svelte@4.2.19)':
     dependencies:
       '@sveltejs/kit': 1.30.4(svelte@4.2.19)(vite@5.4.6(@types/node@18.15.11)(sass@1.78.0))
       svelte: 4.2.19
