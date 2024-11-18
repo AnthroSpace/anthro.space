@@ -20,7 +20,7 @@
     "@fontsource/fira-mono": "5.0.15",
     "@fontsource/varela": "5.0.15",
     "@iconify/json": "2.2.245",
-    "@prgm/sveltekit-progress-bar": "2.0.0",
+    "@prgm/sveltekit-progress-bar": "3.0.1",
     "@supabase/supabase-js": "2.45.3",
     "@sveltejs/adapter-vercel": "4.0.5",
     "@sveltejs/kit": "1.30.4",
