@@ -44,7 +44,7 @@
     "prettier-plugin-svelte": "3.2.6",
     "sass": "1.78.0",
     "supabase": "1.191.3",
-    "svelte": "4.2.19",
+    "svelte": "5.15.0",
     "svelte-check": "4.0.2",
     "svelte-preprocess": "6.0.2",
     "svelte-simple-modal": "1.6.2",
