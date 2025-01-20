@@ -99,8 +99,8 @@ importers:
         specifier: 6.0.2
         version: 6.0.2(postcss-load-config@6.0.1(postcss@8.4.45)(yaml@2.4.2))(postcss@8.4.45)(sass@1.78.0)(svelte@4.2.19)(typescript@5.5.4)
       svelte-simple-modal:
-        specifier: 1.6.2
-        version: 1.6.2(svelte@4.2.19)
+        specifier: 2.0.0
+        version: 2.0.0(svelte@4.2.19)
       svelte2tsx:
         specifier: 0.7.18
         version: 0.7.18(svelte@4.2.19)(typescript@5.5.4)
@@ -2075,10 +2075,10 @@ packages:
       typescript:
         optional: true
 
-  svelte-simple-modal@1.6.2:
-    resolution: {integrity: sha512-cRjpqjZTH0rU5G+SRhUDHOV6TISQs6AnEW/Z7D5uXiz5V/3axrBYcBCPnKMI2Z0EyXmpwPXK4q9grroQTL6rhQ==}
+  svelte-simple-modal@2.0.0:
+    resolution: {integrity: sha512-Rm7MnyL5lsTpai1aRtdq2Gku1VxrGYu1R//ygV3HIdzK1EuJeU6r+fAKc8sq8GMvL0wukaa9mnwBlrcoc2tXzg==}
     peerDependencies:
-      svelte: ^3.30.0 || ^4.0.0
+      svelte: ^5.0.0
 
   svelte2tsx@0.7.18:
     resolution: {integrity: sha512-PCOhH7uQaV472ZvNAcnkvShjFRMMkKUc/eNJImQMH9T4CyHeQpdatedFrEjaMCsweFb/oo3a6bv4qtdfaCPw8g==}
@@ -4134,7 +4134,7 @@ snapshots:
       sass: 1.78.0
       typescript: 5.5.4
 
-  svelte-simple-modal@1.6.2(svelte@4.2.19):
+  svelte-simple-modal@2.0.0(svelte@4.2.19):
     dependencies:
       svelte: 4.2.19
 
